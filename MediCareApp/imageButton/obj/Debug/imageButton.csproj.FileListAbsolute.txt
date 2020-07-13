@@ -1,0 +1,7 @@
+D:\MIT\C# project Level 2\MediCareApp\imageButton\obj\Debug\imageButton.CustomImageButton.resources
+D:\MIT\C# project Level 2\MediCareApp\imageButton\obj\Debug\imageButton.csproj.GenerateResource.cache
+D:\MIT\C# project Level 2\MediCareApp\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
+D:\MIT\C# project Level 2\MediCareApp\imageButton\bin\Debug\imageButton.dll
+D:\MIT\C# project Level 2\MediCareApp\imageButton\bin\Debug\imageButton.pdb
+D:\MIT\C# project Level 2\MediCareApp\imageButton\obj\Debug\imageButton.dll
+D:\MIT\C# project Level 2\MediCareApp\imageButton\obj\Debug\imageButton.pdb
