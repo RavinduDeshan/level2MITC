@@ -64,6 +64,12 @@
     <Compile Include="DoctorSinglePatient.Designer.cs">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDocQueue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocQueue.Designer.cs">
+      <DependentUpon>FormDocQueue.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DoctorPatientList.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorSinglePatient.resx">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocQueue.resx">
+      <DependentUpon>FormDocQueue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -178,6 +187,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\medical_history_60pxdef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchIcon30pxdef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchIcon30px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -37,5 +37,16 @@ namespace MediCareApp
             Form newform = new DoctorPatientList();
             newform.Show();
         }
+
+        private void customImageButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customImageButton3_Click(object sender, EventArgs e)
+        {
+            FormDocQueue docQueue = new FormDocQueue();
+            docQueue.ShowDialog();
+        }
     }
 }
