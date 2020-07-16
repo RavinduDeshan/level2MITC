@@ -31,53 +31,54 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoctorSinglePatient));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.fullNameLabel = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.NamewithInitialsLabel = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dobLabel = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.AGElABEL = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.nicLabel = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.viewMore = new System.Windows.Forms.Button();
             this.IDlabel = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.nicLabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.AGElABEL = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dobLabel = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.NamewithInitialsLabel = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.fullNameLabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.patientDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.patientProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labReportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.allReportsOfThePatientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addNewReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medicalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewAllMedicalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addNewMedicalReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.treatmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewAllMedicalHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addNewTreatmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.customImageButton5 = new imageButton.CustomImageButton();
-            this.patientProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allReportsOfThePatientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addNewReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewAllMedicalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addNewMedicalReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewAllMedicalHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addNewTreatmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewMore = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.customImageButton3 = new imageButton.CustomImageButton();
             this.customImageButton2 = new imageButton.CustomImageButton();
+            this.label13 = new System.Windows.Forms.Label();
             this.customImageButton1 = new imageButton.CustomImageButton();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
@@ -107,125 +108,35 @@
             this.panel2.Size = new System.Drawing.Size(736, 197);
             this.panel2.TabIndex = 17;
             // 
-            // label2
+            // viewMore
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(160, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 20);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Full Name :";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.viewMore.BackColor = System.Drawing.Color.White;
+            this.viewMore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.viewMore.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewMore.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewMore.ForeColor = System.Drawing.Color.ForestGreen;
+            this.viewMore.Image = global::MediCareApp.Properties.Resources.view_more_24px;
+            this.viewMore.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.viewMore.Location = new System.Drawing.Point(623, 148);
+            this.viewMore.Name = "viewMore";
+            this.viewMore.Size = new System.Drawing.Size(86, 34);
+            this.viewMore.TabIndex = 18;
+            this.viewMore.Text = "More";
+            this.viewMore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.viewMore.UseVisualStyleBackColor = false;
             // 
-            // fullNameLabel
+            // IDlabel
             // 
-            this.fullNameLabel.AutoSize = true;
-            this.fullNameLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fullNameLabel.ForeColor = System.Drawing.Color.Gray;
-            this.fullNameLabel.Location = new System.Drawing.Point(334, 32);
-            this.fullNameLabel.Name = "fullNameLabel";
-            this.fullNameLabel.Size = new System.Drawing.Size(359, 20);
-            this.fullNameLabel.TabIndex = 19;
-            this.fullNameLabel.Text = "Gamage Musiyanselage Rashmi Ranasinghe";
-            this.fullNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Green;
-            this.label5.Location = new System.Drawing.Point(160, 51);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 20);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Name with Initials :";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // NamewithInitialsLabel
-            // 
-            this.NamewithInitialsLabel.AutoSize = true;
-            this.NamewithInitialsLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NamewithInitialsLabel.ForeColor = System.Drawing.Color.Gray;
-            this.NamewithInitialsLabel.Location = new System.Drawing.Point(334, 52);
-            this.NamewithInitialsLabel.Name = "NamewithInitialsLabel";
-            this.NamewithInitialsLabel.Size = new System.Drawing.Size(154, 20);
-            this.NamewithInitialsLabel.TabIndex = 21;
-            this.NamewithInitialsLabel.Text = "G M R Ranasinghe";
-            this.NamewithInitialsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Green;
-            this.label4.Location = new System.Drawing.Point(160, 71);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 20);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "Date of Birth :";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dobLabel
-            // 
-            this.dobLabel.AutoSize = true;
-            this.dobLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dobLabel.ForeColor = System.Drawing.Color.Gray;
-            this.dobLabel.Location = new System.Drawing.Point(334, 72);
-            this.dobLabel.Name = "dobLabel";
-            this.dobLabel.Size = new System.Drawing.Size(87, 20);
-            this.dobLabel.TabIndex = 23;
-            this.dobLabel.Text = "1998/06/05";
-            this.dobLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Green;
-            this.label6.Location = new System.Drawing.Point(610, 72);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 20);
-            this.label6.TabIndex = 24;
-            this.label6.Text = "Age :";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // AGElABEL
-            // 
-            this.AGElABEL.AutoSize = true;
-            this.AGElABEL.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AGElABEL.ForeColor = System.Drawing.Color.Gray;
-            this.AGElABEL.Location = new System.Drawing.Point(664, 72);
-            this.AGElABEL.Name = "AGElABEL";
-            this.AGElABEL.Size = new System.Drawing.Size(25, 20);
-            this.AGElABEL.TabIndex = 25;
-            this.AGElABEL.Text = "24";
-            this.AGElABEL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(160, 107);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 26);
-            this.label7.TabIndex = 26;
-            this.label7.Text = "NIC :";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // nicLabel
-            // 
-            this.nicLabel.AutoSize = true;
-            this.nicLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nicLabel.ForeColor = System.Drawing.Color.Gray;
-            this.nicLabel.Location = new System.Drawing.Point(221, 107);
-            this.nicLabel.Name = "nicLabel";
-            this.nicLabel.Size = new System.Drawing.Size(126, 26);
-            this.nicLabel.TabIndex = 27;
-            this.nicLabel.Text = "981570901V";
-            this.nicLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.IDlabel.AutoSize = true;
+            this.IDlabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDlabel.ForeColor = System.Drawing.Color.Gray;
+            this.IDlabel.Location = new System.Drawing.Point(571, 106);
+            this.IDlabel.Name = "IDlabel";
+            this.IDlabel.Size = new System.Drawing.Size(111, 26);
+            this.IDlabel.TabIndex = 29;
+            this.IDlabel.Text = "345678915";
+            this.IDlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label9
             // 
@@ -239,17 +150,136 @@
             this.label9.Text = "ID :";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // IDlabel
+            // nicLabel
             // 
-            this.IDlabel.AutoSize = true;
-            this.IDlabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IDlabel.ForeColor = System.Drawing.Color.Gray;
-            this.IDlabel.Location = new System.Drawing.Point(571, 106);
-            this.IDlabel.Name = "IDlabel";
-            this.IDlabel.Size = new System.Drawing.Size(111, 26);
-            this.IDlabel.TabIndex = 29;
-            this.IDlabel.Text = "345678915";
-            this.IDlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.nicLabel.AutoSize = true;
+            this.nicLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nicLabel.ForeColor = System.Drawing.Color.Gray;
+            this.nicLabel.Location = new System.Drawing.Point(221, 107);
+            this.nicLabel.Name = "nicLabel";
+            this.nicLabel.Size = new System.Drawing.Size(126, 26);
+            this.nicLabel.TabIndex = 27;
+            this.nicLabel.Text = "981570901V";
+            this.nicLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(160, 107);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(61, 26);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "NIC :";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AGElABEL
+            // 
+            this.AGElABEL.AutoSize = true;
+            this.AGElABEL.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AGElABEL.ForeColor = System.Drawing.Color.Gray;
+            this.AGElABEL.Location = new System.Drawing.Point(664, 72);
+            this.AGElABEL.Name = "AGElABEL";
+            this.AGElABEL.Size = new System.Drawing.Size(25, 20);
+            this.AGElABEL.TabIndex = 25;
+            this.AGElABEL.Text = "24";
+            this.AGElABEL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Green;
+            this.label6.Location = new System.Drawing.Point(610, 72);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 20);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Age :";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dobLabel
+            // 
+            this.dobLabel.AutoSize = true;
+            this.dobLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dobLabel.ForeColor = System.Drawing.Color.Gray;
+            this.dobLabel.Location = new System.Drawing.Point(334, 72);
+            this.dobLabel.Name = "dobLabel";
+            this.dobLabel.Size = new System.Drawing.Size(87, 20);
+            this.dobLabel.TabIndex = 23;
+            this.dobLabel.Text = "1998/06/05";
+            this.dobLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Green;
+            this.label4.Location = new System.Drawing.Point(160, 71);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(114, 20);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Date of Birth :";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // NamewithInitialsLabel
+            // 
+            this.NamewithInitialsLabel.AutoSize = true;
+            this.NamewithInitialsLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NamewithInitialsLabel.ForeColor = System.Drawing.Color.Gray;
+            this.NamewithInitialsLabel.Location = new System.Drawing.Point(334, 52);
+            this.NamewithInitialsLabel.Name = "NamewithInitialsLabel";
+            this.NamewithInitialsLabel.Size = new System.Drawing.Size(154, 20);
+            this.NamewithInitialsLabel.TabIndex = 21;
+            this.NamewithInitialsLabel.Text = "G M R Ranasinghe";
+            this.NamewithInitialsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Green;
+            this.label5.Location = new System.Drawing.Point(160, 51);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(157, 20);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Name with Initials :";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // fullNameLabel
+            // 
+            this.fullNameLabel.AutoSize = true;
+            this.fullNameLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fullNameLabel.ForeColor = System.Drawing.Color.Gray;
+            this.fullNameLabel.Location = new System.Drawing.Point(334, 32);
+            this.fullNameLabel.Name = "fullNameLabel";
+            this.fullNameLabel.Size = new System.Drawing.Size(359, 20);
+            this.fullNameLabel.TabIndex = 19;
+            this.fullNameLabel.Text = "Gamage Musiyanselage Rashmi Ranasinghe";
+            this.fullNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Green;
+            this.label2.Location = new System.Drawing.Point(160, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(97, 20);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Full Name :";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MediCareApp.Properties.Resources.male_user_52px;
+            this.pictureBox1.InitialImage = global::MediCareApp.Properties.Resources.male_user_52px;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(123, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
             // 
             // menuStrip1
             // 
@@ -274,6 +304,13 @@
             this.patientDetailsToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.patientDetailsToolStripMenuItem.Text = "Patient Details";
             // 
+            // patientProfileToolStripMenuItem
+            // 
+            this.patientProfileToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.male_user_52px;
+            this.patientProfileToolStripMenuItem.Name = "patientProfileToolStripMenuItem";
+            this.patientProfileToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.patientProfileToolStripMenuItem.Text = "Patient Profile";
+            // 
             // labReportsToolStripMenuItem
             // 
             this.labReportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -282,6 +319,20 @@
             this.labReportsToolStripMenuItem.Name = "labReportsToolStripMenuItem";
             this.labReportsToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.labReportsToolStripMenuItem.Text = "Lab Reports";
+            // 
+            // allReportsOfThePatientToolStripMenuItem
+            // 
+            this.allReportsOfThePatientToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.report_card_50px;
+            this.allReportsOfThePatientToolStripMenuItem.Name = "allReportsOfThePatientToolStripMenuItem";
+            this.allReportsOfThePatientToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.allReportsOfThePatientToolStripMenuItem.Text = "All Lab Reports of the Patient";
+            // 
+            // addNewReportToolStripMenuItem
+            // 
+            this.addNewReportToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.plus_30px;
+            this.addNewReportToolStripMenuItem.Name = "addNewReportToolStripMenuItem";
+            this.addNewReportToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.addNewReportToolStripMenuItem.Text = "Add New Report Request";
             // 
             // medicalsToolStripMenuItem
             // 
@@ -292,6 +343,20 @@
             this.medicalsToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.medicalsToolStripMenuItem.Text = "Medicals";
             // 
+            // viewAllMedicalsToolStripMenuItem
+            // 
+            this.viewAllMedicalsToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.medical_history_50px;
+            this.viewAllMedicalsToolStripMenuItem.Name = "viewAllMedicalsToolStripMenuItem";
+            this.viewAllMedicalsToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.viewAllMedicalsToolStripMenuItem.Text = "View All Medicals";
+            // 
+            // addNewMedicalReportToolStripMenuItem
+            // 
+            this.addNewMedicalReportToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.plus_30px;
+            this.addNewMedicalReportToolStripMenuItem.Name = "addNewMedicalReportToolStripMenuItem";
+            this.addNewMedicalReportToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.addNewMedicalReportToolStripMenuItem.Text = "Add New Medical Report";
+            // 
             // treatmentToolStripMenuItem
             // 
             this.treatmentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -300,6 +365,20 @@
             this.treatmentToolStripMenuItem.Name = "treatmentToolStripMenuItem";
             this.treatmentToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.treatmentToolStripMenuItem.Text = "Treatment";
+            // 
+            // viewAllMedicalHistoryToolStripMenuItem
+            // 
+            this.viewAllMedicalHistoryToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.order_history_64pxdef1;
+            this.viewAllMedicalHistoryToolStripMenuItem.Name = "viewAllMedicalHistoryToolStripMenuItem";
+            this.viewAllMedicalHistoryToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.viewAllMedicalHistoryToolStripMenuItem.Text = "View All Medical History";
+            // 
+            // addNewTreatmentToolStripMenuItem
+            // 
+            this.addNewTreatmentToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.plus_30px;
+            this.addNewTreatmentToolStripMenuItem.Name = "addNewTreatmentToolStripMenuItem";
+            this.addNewTreatmentToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.addNewTreatmentToolStripMenuItem.Text = "Add New Treatment";
             // 
             // label1
             // 
@@ -340,6 +419,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
@@ -356,45 +436,17 @@
             this.panel1.Size = new System.Drawing.Size(800, 899);
             this.panel1.TabIndex = 0;
             // 
-            // label13
+            // label11
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Gray;
-            this.label13.Location = new System.Drawing.Point(14, 59);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 18);
-            this.label13.TabIndex = 35;
-            this.label13.Text = "New Treatment";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.label12);
-            this.panel3.Controls.Add(this.customImageButton3);
-            this.panel3.Controls.Add(this.customImageButton2);
-            this.panel3.Controls.Add(this.label13);
-            this.panel3.Controls.Add(this.customImageButton1);
-            this.panel3.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel3.Location = new System.Drawing.Point(144, 75);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(509, 99);
-            this.panel3.TabIndex = 40;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Gray;
-            this.label12.Location = new System.Drawing.Point(190, 59);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(125, 18);
-            this.label12.TabIndex = 40;
-            this.label12.Text = "New Lab Report";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Green;
+            this.label11.Location = new System.Drawing.Point(325, 37);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(149, 30);
+            this.label11.TabIndex = 41;
+            this.label11.Text = "Quick Entry";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button2
             // 
@@ -445,83 +497,45 @@
             this.customImageButton5.TabIndex = 18;
             this.customImageButton5.TabStop = false;
             // 
-            // patientProfileToolStripMenuItem
+            // panel3
             // 
-            this.patientProfileToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.male_user_52px;
-            this.patientProfileToolStripMenuItem.Name = "patientProfileToolStripMenuItem";
-            this.patientProfileToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.patientProfileToolStripMenuItem.Text = "Patient Profile";
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.label12);
+            this.panel3.Controls.Add(this.customImageButton3);
+            this.panel3.Controls.Add(this.customImageButton2);
+            this.panel3.Controls.Add(this.label13);
+            this.panel3.Controls.Add(this.customImageButton1);
+            this.panel3.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel3.Location = new System.Drawing.Point(144, 75);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(509, 99);
+            this.panel3.TabIndex = 40;
             // 
-            // allReportsOfThePatientToolStripMenuItem
+            // label10
             // 
-            this.allReportsOfThePatientToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.report_card_50px;
-            this.allReportsOfThePatientToolStripMenuItem.Name = "allReportsOfThePatientToolStripMenuItem";
-            this.allReportsOfThePatientToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
-            this.allReportsOfThePatientToolStripMenuItem.Text = "All Lab Reports of the Patient";
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Gray;
+            this.label10.Location = new System.Drawing.Point(348, 60);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(154, 18);
+            this.label10.TabIndex = 41;
+            this.label10.Text = "New Medical Report";
             // 
-            // addNewReportToolStripMenuItem
+            // label12
             // 
-            this.addNewReportToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.plus_30px;
-            this.addNewReportToolStripMenuItem.Name = "addNewReportToolStripMenuItem";
-            this.addNewReportToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
-            this.addNewReportToolStripMenuItem.Text = "Add New Report Request";
-            // 
-            // viewAllMedicalsToolStripMenuItem
-            // 
-            this.viewAllMedicalsToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.medical_history_50px;
-            this.viewAllMedicalsToolStripMenuItem.Name = "viewAllMedicalsToolStripMenuItem";
-            this.viewAllMedicalsToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.viewAllMedicalsToolStripMenuItem.Text = "View All Medicals";
-            // 
-            // addNewMedicalReportToolStripMenuItem
-            // 
-            this.addNewMedicalReportToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.plus_30px;
-            this.addNewMedicalReportToolStripMenuItem.Name = "addNewMedicalReportToolStripMenuItem";
-            this.addNewMedicalReportToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.addNewMedicalReportToolStripMenuItem.Text = "Add New Medical Report";
-            // 
-            // viewAllMedicalHistoryToolStripMenuItem
-            // 
-            this.viewAllMedicalHistoryToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.order_history_64pxdef1;
-            this.viewAllMedicalHistoryToolStripMenuItem.Name = "viewAllMedicalHistoryToolStripMenuItem";
-            this.viewAllMedicalHistoryToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.viewAllMedicalHistoryToolStripMenuItem.Text = "View All Medical History";
-            // 
-            // addNewTreatmentToolStripMenuItem
-            // 
-            this.addNewTreatmentToolStripMenuItem.Image = global::MediCareApp.Properties.Resources.plus_30px;
-            this.addNewTreatmentToolStripMenuItem.Name = "addNewTreatmentToolStripMenuItem";
-            this.addNewTreatmentToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.addNewTreatmentToolStripMenuItem.Text = "Add New Treatment";
-            // 
-            // viewMore
-            // 
-            this.viewMore.BackColor = System.Drawing.Color.White;
-            this.viewMore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.viewMore.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.viewMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewMore.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewMore.ForeColor = System.Drawing.Color.ForestGreen;
-            this.viewMore.Image = global::MediCareApp.Properties.Resources.view_more_24px;
-            this.viewMore.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.viewMore.Location = new System.Drawing.Point(623, 148);
-            this.viewMore.Name = "viewMore";
-            this.viewMore.Size = new System.Drawing.Size(86, 34);
-            this.viewMore.TabIndex = 18;
-            this.viewMore.Text = "More";
-            this.viewMore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.viewMore.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::MediCareApp.Properties.Resources.male_user_52px;
-            this.pictureBox1.InitialImage = global::MediCareApp.Properties.Resources.male_user_52px;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 32);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Gray;
+            this.label12.Location = new System.Drawing.Point(190, 59);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(125, 18);
+            this.label12.TabIndex = 40;
+            this.label12.Text = "New Lab Report";
             // 
             // customImageButton3
             // 
@@ -549,6 +563,18 @@
             this.customImageButton2.TabIndex = 38;
             this.customImageButton2.TabStop = false;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Gray;
+            this.label13.Location = new System.Drawing.Point(14, 59);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(119, 18);
+            this.label13.TabIndex = 35;
+            this.label13.Text = "New Treatment";
+            // 
             // customImageButton1
             // 
             this.customImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -562,29 +588,23 @@
             this.customImageButton1.TabIndex = 39;
             this.customImageButton1.TabStop = false;
             // 
-            // label10
+            // button3
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Gray;
-            this.label10.Location = new System.Drawing.Point(348, 60);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(154, 18);
-            this.label10.TabIndex = 41;
-            this.label10.Text = "New Medical Report";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Green;
-            this.label11.Location = new System.Drawing.Point(325, 37);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(149, 30);
-            this.label11.TabIndex = 41;
-            this.label11.Text = "Quick Entry";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.ForestGreen;
+            this.button3.Image = global::MediCareApp.Properties.Resources.view_more_24px;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(659, 461);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(106, 34);
+            this.button3.TabIndex = 42;
+            this.button3.Text = "View All";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // DoctorSinglePatient
             // 
@@ -600,14 +620,14 @@
             this.Text = "Doctor Portal - Patient";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
@@ -659,5 +679,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button3;
     }
 }
