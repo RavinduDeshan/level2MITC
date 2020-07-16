@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="DoctorPatientList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="DoctorPatientList.Designer.cs">
+      <DependentUpon>DoctorPatientList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorHome.Designer.cs">
+      <DependentUpon>DoctorHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSinglePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorSinglePatient.Designer.cs">
+      <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="DoctorPatientList.resx">
+      <DependentUpon>DoctorPatientList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorHome.resx">
+      <DependentUpon>DoctorHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorSinglePatient.resx">
+      <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -130,6 +148,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\exit_sign_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_more_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_more_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_card_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treatment_48pxdef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treatment_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical_history_60pxdef.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

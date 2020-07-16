@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class Form1 : Form
+    public partial class DoctorPatientList : Form
     {
-        public Form1()
+        public DoctorPatientList()
         {
             InitializeComponent();
-        }
-
-        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,9 +22,10 @@ namespace MediCareApp
 
         }
 
-        private void allPrescribtionsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void viewMore_Click(object sender, EventArgs e)
         {
-
+            Form newform = new DoctorSinglePatient();
+            newform.Show();
         }
     }
 }

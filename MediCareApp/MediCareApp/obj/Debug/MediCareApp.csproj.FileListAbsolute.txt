@@ -1,7 +1,6 @@
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe.config
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\MediCareApp.pdb
-D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Form1.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Properties.Resources.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.GenerateResource.cache
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CoreCompileInputs.cache
@@ -11,3 +10,6 @@ D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\imageButton.dll
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\imageButton.pdb
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csprojAssemblyReference.cache
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CopyComplete
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorPatientList.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorHome.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorSinglePatient.resources
