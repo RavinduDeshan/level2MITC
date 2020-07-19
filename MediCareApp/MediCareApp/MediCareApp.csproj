@@ -64,6 +64,12 @@
     <Compile Include="DoctorSinglePatient.Designer.cs">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDocLabReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocLabReports.Designer.cs">
+      <DependentUpon>FormDocLabReports.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDocQueue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorSinglePatient.resx">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocLabReports.resx">
+      <DependentUpon>FormDocLabReports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDocQueue.resx">
       <DependentUpon>FormDocQueue.cs</DependentUpon>

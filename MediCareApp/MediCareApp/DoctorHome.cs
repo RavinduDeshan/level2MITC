@@ -40,7 +40,8 @@ namespace MediCareApp
 
         private void customImageButton2_Click(object sender, EventArgs e)
         {
-
+            FormDocLabReports docLabReports = new FormDocLabReports();
+            docLabReports.ShowDialog();
         }
 
         private void customImageButton3_Click(object sender, EventArgs e)

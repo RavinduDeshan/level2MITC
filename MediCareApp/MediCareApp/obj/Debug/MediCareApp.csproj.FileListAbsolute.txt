@@ -29,3 +29,4 @@ C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocQueue.resources
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocLabReports.resources
