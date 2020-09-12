@@ -61,5 +61,10 @@ namespace MediCareApp
             Form newform = new ReciptionDashboard();
             newform.Show();
         }
+
+        private void DoctorHome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
