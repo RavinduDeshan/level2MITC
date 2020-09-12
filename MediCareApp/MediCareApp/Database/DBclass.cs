@@ -11,7 +11,8 @@ namespace MediCareApp.Database
     class DBclass
     {
 
-        private String conString = @"SERVER=abcdatabase.mysql.database.azure.com;PORT=3306;DATABASE=mydb;UID=abcadmin@abcdatabase;PASSWORD=ABC@123abc";
+        private String conString = @"SERVER=medicareapp.mysql.database.azure.com;PORT=3306;DATABASE=medicare;UID=ravindu@medicareapp;PASSWORD=suranganavi17#";
+       
         private MySqlConnection con;
 
         public MySqlConnection getConnection()
