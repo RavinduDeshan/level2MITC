@@ -30,6 +30,7 @@ C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocQueue.resources
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocLabReports.resources
+<<<<<<< HEAD
 C:\Users\HP\level2MITC\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe.config
 C:\Users\HP\level2MITC\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe
 C:\Users\HP\level2MITC\MediCareApp\MediCareApp\bin\Debug\MediCareApp.pdb
@@ -64,3 +65,7 @@ C:\Users\HP\level2MITC\MediCareApp\MediCareApp\bin\Debug\System.Runtime.Compiler
 C:\Users\HP\level2MITC\MediCareApp\MediCareApp\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\HP\level2MITC\MediCareApp\MediCareApp\bin\Debug\MySql.Data.xml
 C:\Users\HP\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReciptionDashboard.resources
+=======
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocLabReports.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocQueue.resources
+>>>>>>> e109d4cddfdb5272d42da3036bf4274049d70858

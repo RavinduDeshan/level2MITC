@@ -37,16 +37,21 @@
             this.customImageButton5 = new imageButton.CustomImageButton();
             this.customImageButton1 = new imageButton.CustomImageButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.customImageButton2 = new imageButton.CustomImageButton();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.customImageButton2);
             this.panel1.Controls.Add(this.viewMore);
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.customImageButton5);
             this.panel1.Controls.Add(this.customImageButton1);
@@ -144,6 +149,27 @@
             this.label1.Text = "Patients";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // customImageButton2
+            // 
+            this.customImageButton2.Image = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
+            this.customImageButton2.ImageDefault = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
+            this.customImageButton2.ImageHover = global::MediCareApp.Properties.Resources.searchIcon30px;
+            this.customImageButton2.Location = new System.Drawing.Point(705, 73);
+            this.customImageButton2.Name = "customImageButton2";
+            this.customImageButton2.Size = new System.Drawing.Size(35, 35);
+            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton2.TabIndex = 31;
+            this.customImageButton2.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(502, 78);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(199, 26);
+            this.textBox1.TabIndex = 30;
+            // 
             // DoctorPatientList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -161,6 +187,7 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -175,5 +202,7 @@
         private System.Windows.Forms.Label totPatientCountLabel;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button viewMore;
+        private imageButton.CustomImageButton customImageButton2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
