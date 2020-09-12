@@ -13,3 +13,11 @@ C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\imageButton\obj\Debug\imageButton.dll
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\Test\MediCareApp\imageButton\obj\Debug\imageButton.pdb
+C:\Users\HP\level2MITC\MediCareApp\imageButton\bin\Debug\imageButton.dll
+C:\Users\HP\level2MITC\MediCareApp\imageButton\bin\Debug\imageButton.pdb
+C:\Users\HP\level2MITC\MediCareApp\imageButton\obj\Debug\imageButton.csprojAssemblyReference.cache
+C:\Users\HP\level2MITC\MediCareApp\imageButton\obj\Debug\imageButton.CustomImageButton.resources
+C:\Users\HP\level2MITC\MediCareApp\imageButton\obj\Debug\imageButton.csproj.GenerateResource.cache
+C:\Users\HP\level2MITC\MediCareApp\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
+C:\Users\HP\level2MITC\MediCareApp\imageButton\obj\Debug\imageButton.dll
+C:\Users\HP\level2MITC\MediCareApp\imageButton\obj\Debug\imageButton.pdb
