@@ -121,25 +121,25 @@
             // patientsToolStripMenuItem
             // 
             this.patientsToolStripMenuItem.Name = "patientsToolStripMenuItem";
-            this.patientsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.patientsToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.patientsToolStripMenuItem.Text = "&Patients";
             // 
             // labReportsToolStripMenuItem
             // 
             this.labReportsToolStripMenuItem.Name = "labReportsToolStripMenuItem";
-            this.labReportsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.labReportsToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.labReportsToolStripMenuItem.Text = "&Lab Reports";
             // 
             // myQueueToolStripMenuItem
             // 
             this.myQueueToolStripMenuItem.Name = "myQueueToolStripMenuItem";
-            this.myQueueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.myQueueToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.myQueueToolStripMenuItem.Text = "&My Queue";
             // 
             // medicalHistoryToolStripMenuItem
             // 
             this.medicalHistoryToolStripMenuItem.Name = "medicalHistoryToolStripMenuItem";
-            this.medicalHistoryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.medicalHistoryToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.medicalHistoryToolStripMenuItem.Text = "Medical &History";
             // 
             // settingsToolStripMenuItem
@@ -204,7 +204,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -607,6 +607,7 @@
             this.MaximizeBox = false;
             this.Name = "DoctorHome";
             this.Text = "MediCare - Doctor Dashboard";
+            this.Load += new System.EventHandler(this.DoctorHome_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
