@@ -69,3 +69,15 @@ C:\Users\HP\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReciptionDa
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocLabReports.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocQueue.resources
 >>>>>>> e109d4cddfdb5272d42da3036bf4274049d70858
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csprojAssemblyReference.cache
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe.config
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorPatientList.resources
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorHome.resources
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorSinglePatient.resources
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocLabReports.resources
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocQueue.resources
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Properties.Resources.resources
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.GenerateResource.cache
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CoreCompileInputs.cache
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
