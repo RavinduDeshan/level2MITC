@@ -12,6 +12,7 @@ namespace MediCareApp
 {
     public partial class DoctorHome : Form
     {
+        int count;
         public DoctorHome()
         {
             InitializeComponent();
@@ -48,6 +49,17 @@ namespace MediCareApp
         {
             FormDocQueue docQueue = new FormDocQueue();
             docQueue.ShowDialog();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form newform = new ReciptionDashboard();
+            newform.Show();
         }
     }
 }

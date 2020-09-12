@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class DoctorSinglePatient : Form
+    public partial class ReciptionPatientList : Form
     {
-        public DoctorSinglePatient()
+        public ReciptionPatientList()
         {
             InitializeComponent();
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

@@ -128,11 +128,11 @@
             // IDlabel
             // 
             this.IDlabel.AutoSize = true;
-            this.IDlabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IDlabel.ForeColor = System.Drawing.Color.Gray;
             this.IDlabel.Location = new System.Drawing.Point(571, 106);
             this.IDlabel.Name = "IDlabel";
-            this.IDlabel.Size = new System.Drawing.Size(111, 26);
+            this.IDlabel.Size = new System.Drawing.Size(129, 25);
             this.IDlabel.TabIndex = 29;
             this.IDlabel.Text = "345678915";
             this.IDlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -140,11 +140,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(510, 106);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 26);
+            this.label9.Size = new System.Drawing.Size(48, 25);
             this.label9.TabIndex = 28;
             this.label9.Text = "ID :";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -152,11 +152,11 @@
             // nicLabel
             // 
             this.nicLabel.AutoSize = true;
-            this.nicLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nicLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nicLabel.ForeColor = System.Drawing.Color.Gray;
             this.nicLabel.Location = new System.Drawing.Point(221, 107);
             this.nicLabel.Name = "nicLabel";
-            this.nicLabel.Size = new System.Drawing.Size(126, 26);
+            this.nicLabel.Size = new System.Drawing.Size(144, 25);
             this.nicLabel.TabIndex = 27;
             this.nicLabel.Text = "981570901V";
             this.nicLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -164,11 +164,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(160, 107);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 26);
+            this.label7.Size = new System.Drawing.Size(64, 25);
             this.label7.TabIndex = 26;
             this.label7.Text = "NIC :";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -176,11 +176,11 @@
             // AGElABEL
             // 
             this.AGElABEL.AutoSize = true;
-            this.AGElABEL.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AGElABEL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AGElABEL.ForeColor = System.Drawing.Color.Gray;
             this.AGElABEL.Location = new System.Drawing.Point(664, 72);
             this.AGElABEL.Name = "AGElABEL";
-            this.AGElABEL.Size = new System.Drawing.Size(25, 20);
+            this.AGElABEL.Size = new System.Drawing.Size(29, 20);
             this.AGElABEL.TabIndex = 25;
             this.AGElABEL.Text = "24";
             this.AGElABEL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -188,11 +188,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Green;
             this.label6.Location = new System.Drawing.Point(610, 72);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 20);
+            this.label6.Size = new System.Drawing.Size(51, 20);
             this.label6.TabIndex = 24;
             this.label6.Text = "Age :";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -200,11 +200,11 @@
             // dobLabel
             // 
             this.dobLabel.AutoSize = true;
-            this.dobLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dobLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dobLabel.ForeColor = System.Drawing.Color.Gray;
             this.dobLabel.Location = new System.Drawing.Point(334, 72);
             this.dobLabel.Name = "dobLabel";
-            this.dobLabel.Size = new System.Drawing.Size(87, 20);
+            this.dobLabel.Size = new System.Drawing.Size(99, 20);
             this.dobLabel.TabIndex = 23;
             this.dobLabel.Text = "1998/06/05";
             this.dobLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -212,11 +212,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Green;
             this.label4.Location = new System.Drawing.Point(160, 71);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 20);
+            this.label4.Size = new System.Drawing.Size(122, 20);
             this.label4.TabIndex = 22;
             this.label4.Text = "Date of Birth :";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -224,11 +224,11 @@
             // NamewithInitialsLabel
             // 
             this.NamewithInitialsLabel.AutoSize = true;
-            this.NamewithInitialsLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NamewithInitialsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NamewithInitialsLabel.ForeColor = System.Drawing.Color.Gray;
             this.NamewithInitialsLabel.Location = new System.Drawing.Point(334, 52);
             this.NamewithInitialsLabel.Name = "NamewithInitialsLabel";
-            this.NamewithInitialsLabel.Size = new System.Drawing.Size(154, 20);
+            this.NamewithInitialsLabel.Size = new System.Drawing.Size(161, 20);
             this.NamewithInitialsLabel.TabIndex = 21;
             this.NamewithInitialsLabel.Text = "G M R Ranasinghe";
             this.NamewithInitialsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -236,11 +236,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Green;
             this.label5.Location = new System.Drawing.Point(160, 51);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 20);
+            this.label5.Size = new System.Drawing.Size(160, 20);
             this.label5.TabIndex = 20;
             this.label5.Text = "Name with Initials :";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -248,11 +248,11 @@
             // fullNameLabel
             // 
             this.fullNameLabel.AutoSize = true;
-            this.fullNameLabel.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fullNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fullNameLabel.ForeColor = System.Drawing.Color.Gray;
             this.fullNameLabel.Location = new System.Drawing.Point(334, 32);
             this.fullNameLabel.Name = "fullNameLabel";
-            this.fullNameLabel.Size = new System.Drawing.Size(359, 20);
+            this.fullNameLabel.Size = new System.Drawing.Size(366, 20);
             this.fullNameLabel.TabIndex = 19;
             this.fullNameLabel.Text = "Gamage Musiyanselage Rashmi Ranasinghe";
             this.fullNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -260,11 +260,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Green;
             this.label2.Location = new System.Drawing.Point(160, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 20);
+            this.label2.Size = new System.Drawing.Size(99, 20);
             this.label2.TabIndex = 18;
             this.label2.Text = "Full Name :";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -362,7 +362,7 @@
             this.viewAllMedicalHistoryToolStripMenuItem,
             this.addNewTreatmentToolStripMenuItem});
             this.treatmentToolStripMenuItem.Name = "treatmentToolStripMenuItem";
-            this.treatmentToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.treatmentToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.treatmentToolStripMenuItem.Text = "Treatment";
             // 
             // viewAllMedicalHistoryToolStripMenuItem
@@ -382,11 +382,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Green;
             this.label1.Location = new System.Drawing.Point(25, 187);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 30);
+            this.label1.Size = new System.Drawing.Size(209, 29);
             this.label1.TabIndex = 14;
             this.label1.Text = "Patient Summary";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -394,11 +394,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Green;
             this.label3.Location = new System.Drawing.Point(24, 442);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(279, 30);
+            this.label3.Size = new System.Drawing.Size(282, 29);
             this.label3.TabIndex = 19;
             this.label3.Text = "Recent Medical History";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -406,11 +406,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Green;
             this.label8.Location = new System.Drawing.Point(25, 622);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(251, 30);
+            this.label8.Size = new System.Drawing.Size(252, 29);
             this.label8.TabIndex = 20;
             this.label8.Text = "Ongoing Treatments";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -431,17 +431,18 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 899);
+            this.panel1.Size = new System.Drawing.Size(800, 742);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Green;
             this.label11.Location = new System.Drawing.Point(325, 37);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(149, 30);
+            this.label11.Size = new System.Drawing.Size(146, 29);
             this.label11.TabIndex = 41;
             this.label11.Text = "Quick Entry";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -515,11 +516,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Gray;
             this.label10.Location = new System.Drawing.Point(348, 60);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(154, 18);
+            this.label10.Size = new System.Drawing.Size(142, 18);
             this.label10.TabIndex = 41;
             this.label10.Text = "New Medical Report";
             // 
@@ -527,11 +528,11 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Gray;
             this.label12.Location = new System.Drawing.Point(190, 59);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(125, 18);
+            this.label12.Size = new System.Drawing.Size(115, 18);
             this.label12.TabIndex = 40;
             this.label12.Text = "New Lab Report";
             // 
@@ -565,11 +566,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Gray;
             this.label13.Location = new System.Drawing.Point(14, 59);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 18);
+            this.label13.Size = new System.Drawing.Size(109, 18);
             this.label13.TabIndex = 35;
             this.label13.Text = "New Treatment";
             // 
@@ -590,7 +591,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 899);
+            this.ClientSize = new System.Drawing.Size(800, 742);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
