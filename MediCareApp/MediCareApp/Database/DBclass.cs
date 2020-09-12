@@ -12,7 +12,7 @@ namespace MediCareApp.Database
     {
 
         private String conString = @"SERVER=abcdatabase.mysql.database.azure.com;PORT=3306;DATABASE=mydb;UID=abcadmin@abcdatabase;PASSWORD=ABC@123abc";
-        private MySql.Data.MySqlClient.MySqlConnection con;
+        private MySqlConnection con;
 
         public MySqlConnection getConnection()
         {
