@@ -94,8 +94,11 @@
     <Compile Include="FormDocQueue.Designer.cs">
       <DependentUpon>FormDocQueue.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Doctor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
+    <Compile Include="Services\DoctorService.cs" />
     <EmbeddedResource Include="DoctorPatientList.resx">
       <DependentUpon>DoctorPatientList.cs</DependentUpon>
     </EmbeddedResource>
