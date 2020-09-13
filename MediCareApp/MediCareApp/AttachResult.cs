@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class LabReport : Form
+    public partial class AttachResult : Form
     {
-        public LabReport()
+        public AttachResult()
         {
             InitializeComponent();
-        }
-
-        private void label26_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

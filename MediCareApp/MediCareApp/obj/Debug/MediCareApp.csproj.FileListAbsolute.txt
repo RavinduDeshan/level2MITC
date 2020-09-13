@@ -102,3 +102,4 @@ C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareA
 C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CopyComplete
 C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe
 C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
+C:\Users\KaLaNa\Documents\level2MITC\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AttachResult.resources
