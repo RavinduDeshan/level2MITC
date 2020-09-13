@@ -94,6 +94,18 @@
     <Compile Include="FormDocQueue.Designer.cs">
       <DependentUpon>FormDocQueue.cs</DependentUpon>
     </Compile>
+    <Compile Include="LabAssistantHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabAssistantHome.Designer.cs">
+      <DependentUpon>LabAssistantHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabReport.Designer.cs">
+      <DependentUpon>LabReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Doctor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -119,6 +131,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDocQueue.resx">
       <DependentUpon>FormDocQueue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabAssistantHome.resx">
+      <DependentUpon>LabAssistantHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabReport.resx">
+      <DependentUpon>LabReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
