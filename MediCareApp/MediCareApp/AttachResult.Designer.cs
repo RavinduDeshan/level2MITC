@@ -32,6 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.customImageButton3 = new imageButton.CustomImageButton();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -66,6 +68,7 @@
             this.button1.Text = "Cancel";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -81,18 +84,34 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Visible = false;
             // 
+            // customImageButton3
+            // 
+            this.customImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customImageButton3.Image = global::MediCareApp.Properties.Resources.medical_history_60pxdef;
+            this.customImageButton3.ImageDefault = global::MediCareApp.Properties.Resources.medical_history_60pxdef;
+            this.customImageButton3.ImageHover = global::MediCareApp.Properties.Resources.medical_history_60px;
+            this.customImageButton3.Location = new System.Drawing.Point(479, 54);
+            this.customImageButton3.Margin = new System.Windows.Forms.Padding(4);
+            this.customImageButton3.Name = "customImageButton3";
+            this.customImageButton3.Size = new System.Drawing.Size(110, 55);
+            this.customImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton3.TabIndex = 54;
+            this.customImageButton3.TabStop = false;
+            // 
             // AttachResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(725, 447);
+            this.Controls.Add(this.customImageButton3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "AttachResult";
             this.Text = "AttachResult";
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +123,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private imageButton.CustomImageButton customImageButton3;
     }
 }
