@@ -34,7 +34,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.customImageButton2 = new imageButton.CustomImageButton();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnviewreport = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -70,7 +70,7 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.customImageButton2);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnviewreport);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
@@ -84,6 +84,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1211, 772);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // customImageButton1
             // 
@@ -117,6 +118,7 @@
             this.button3.TabIndex = 24;
             this.button3.Text = "Add Request";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // customImageButton2
             // 
@@ -131,17 +133,18 @@
             this.customImageButton2.TabIndex = 18;
             this.customImageButton2.TabStop = false;
             // 
-            // button2
+            // btnviewreport
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Green;
-            this.button2.Location = new System.Drawing.Point(399, 654);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 67);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "View Report";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnviewreport.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnviewreport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnviewreport.ForeColor = System.Drawing.Color.Green;
+            this.btnviewreport.Location = new System.Drawing.Point(399, 654);
+            this.btnviewreport.Name = "btnviewreport";
+            this.btnviewreport.Size = new System.Drawing.Size(159, 67);
+            this.btnviewreport.TabIndex = 16;
+            this.btnviewreport.Text = "View Report";
+            this.btnviewreport.UseVisualStyleBackColor = false;
+            this.btnviewreport.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel6
             // 
@@ -275,7 +278,7 @@
             this.label4.Location = new System.Drawing.Point(55, 51);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 42);
+            this.label4.Size = new System.Drawing.Size(80, 40);
             this.label4.TabIndex = 2;
             this.label4.Text = "340";
             // 
@@ -310,7 +313,7 @@
             this.label2.Location = new System.Drawing.Point(53, 51);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 42);
+            this.label2.Size = new System.Drawing.Size(80, 40);
             this.label2.TabIndex = 0;
             this.label2.Text = "340";
             // 
@@ -347,7 +350,7 @@
             this.label15.Location = new System.Drawing.Point(56, 57);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(84, 42);
+            this.label15.Size = new System.Drawing.Size(80, 40);
             this.label15.TabIndex = 0;
             this.label15.Text = "340";
             // 
@@ -412,7 +415,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button3;
         private imageButton.CustomImageButton customImageButton2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnviewreport;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
