@@ -63,6 +63,16 @@ namespace MediCareApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cross_100px {
+            get {
+                object obj = ResourceManager.GetObject("cross_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_sign_100px {
             get {
                 object obj = ResourceManager.GetObject("exit_sign_100px", resourceCulture);
@@ -136,6 +146,16 @@ namespace MediCareApp.Properties {
         internal static System.Drawing.Bitmap male_user_52px {
             get {
                 object obj = ResourceManager.GetObject("male_user_52px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap medical_bag_48px {
+            get {
+                object obj = ResourceManager.GetObject("medical_bag_48px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +306,16 @@ namespace MediCareApp.Properties {
         internal static System.Drawing.Bitmap searchIcon30pxdef {
             get {
                 object obj = ResourceManager.GetObject("searchIcon30pxdef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stethoscope_200px {
+            get {
+                object obj = ResourceManager.GetObject("stethoscope_200px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -56,6 +56,12 @@
     <Compile Include="AttachResult.Designer.cs">
       <DependentUpon>AttachResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChannelingDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelingDetails.Designer.cs">
+      <DependentUpon>ChannelingDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Database\DBclass.cs" />
     <Compile Include="DoctorPatientList.cs">
@@ -124,13 +130,31 @@
     <Compile Include="LabReport.Designer.cs">
       <DependentUpon>LabReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="LandingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LandingPage.Designer.cs">
+      <DependentUpon>LandingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChannelingSchedule.cs" />
     <Compile Include="Models\Doctor.cs" />
+    <Compile Include="Models\OpdShedule.cs" />
+    <Compile Include="Models\Specialist.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selectSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectSchedule.Designer.cs">
+      <DependentUpon>selectSchedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
     <Compile Include="Services\DoctorService.cs" />
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelingDetails.resx">
+      <DependentUpon>ChannelingDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorPatientList.resx">
       <DependentUpon>DoctorPatientList.cs</DependentUpon>
@@ -175,6 +199,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="selectSchedule.resx">
+      <DependentUpon>selectSchedule.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -277,6 +304,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\labreport.png" />
+    <None Include="Resources\stethoscope_200px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
