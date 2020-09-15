@@ -37,10 +37,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.customImageButton4 = new imageButton.CustomImageButton();
-            this.label5 = new System.Windows.Forms.Label();
-            this.customImageButton3 = new imageButton.CustomImageButton();
-            this.label4 = new System.Windows.Forms.Label();
             this.customImageButton6 = new imageButton.CustomImageButton();
             this.customImageButton5 = new imageButton.CustomImageButton();
             this.customImageButton1 = new imageButton.CustomImageButton();
@@ -61,8 +57,6 @@
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
@@ -83,10 +77,6 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.customImageButton4);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.customImageButton3);
-            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.customImageButton6);
             this.panel2.Controls.Add(this.customImageButton5);
             this.panel2.Controls.Add(this.customImageButton1);
@@ -163,54 +153,6 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Queue length";
             // 
-            // customImageButton4
-            // 
-            this.customImageButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customImageButton4.Image = global::MediCareApp.Properties.Resources.order_history_64pxdef;
-            this.customImageButton4.ImageDefault = global::MediCareApp.Properties.Resources.order_history_64pxdef1;
-            this.customImageButton4.ImageHover = global::MediCareApp.Properties.Resources.order_history_64px;
-            this.customImageButton4.Location = new System.Drawing.Point(600, 96);
-            this.customImageButton4.Name = "customImageButton4";
-            this.customImageButton4.Size = new System.Drawing.Size(96, 88);
-            this.customImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.customImageButton4.TabIndex = 1;
-            this.customImageButton4.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(617, 187);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 20);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "History";
-            // 
-            // customImageButton3
-            // 
-            this.customImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customImageButton3.Image = global::MediCareApp.Properties.Resources.queue_240pxdef;
-            this.customImageButton3.ImageDefault = global::MediCareApp.Properties.Resources.queue_240pxdef1;
-            this.customImageButton3.ImageHover = global::MediCareApp.Properties.Resources.queue_240px;
-            this.customImageButton3.Location = new System.Drawing.Point(408, 96);
-            this.customImageButton3.Name = "customImageButton3";
-            this.customImageButton3.Size = new System.Drawing.Size(96, 88);
-            this.customImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.customImageButton3.TabIndex = 1;
-            this.customImageButton3.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(412, 187);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Channeling";
-            // 
             // customImageButton6
             // 
             this.customImageButton6.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -243,7 +185,7 @@
             this.customImageButton1.Image = global::MediCareApp.Properties.Resources.fever_200pxdef;
             this.customImageButton1.ImageDefault = global::MediCareApp.Properties.Resources.fever_200pxdef;
             this.customImageButton1.ImageHover = global::MediCareApp.Properties.Resources.fever_200px;
-            this.customImageButton1.Location = new System.Drawing.Point(210, 96);
+            this.customImageButton1.Location = new System.Drawing.Point(408, 77);
             this.customImageButton1.Name = "customImageButton1";
             this.customImageButton1.Size = new System.Drawing.Size(96, 88);
             this.customImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -256,11 +198,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(238, 187);
+            this.label2.Location = new System.Drawing.Point(422, 168);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 20);
+            this.label2.Size = new System.Drawing.Size(67, 20);
             this.label2.TabIndex = 0;
-            this.label2.Text = "OPD";
+            this.label2.Text = "Patients";
             // 
             // label6
             // 
@@ -309,20 +251,20 @@
             // oPDToolStripMenuItem
             // 
             this.oPDToolStripMenuItem.Name = "oPDToolStripMenuItem";
-            this.oPDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oPDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.oPDToolStripMenuItem.Text = "OPD";
             this.oPDToolStripMenuItem.Click += new System.EventHandler(this.oPDToolStripMenuItem_Click);
             // 
             // channelingToolStripMenuItem
             // 
             this.channelingToolStripMenuItem.Name = "channelingToolStripMenuItem";
-            this.channelingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.channelingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.channelingToolStripMenuItem.Text = "Channeling";
             // 
             // patientHistoryToolStripMenuItem
             // 
             this.patientHistoryToolStripMenuItem.Name = "patientHistoryToolStripMenuItem";
-            this.patientHistoryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.patientHistoryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.patientHistoryToolStripMenuItem.Text = "Patient History";
             // 
             // accountToolStripMenuItem
@@ -370,6 +312,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ReciptionDashboard";
             this.Text = "Medi Care - Reciption Dashboard";
+            this.Load += new System.EventHandler(this.ReciptionDashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -378,8 +321,6 @@
             this.panel7.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
@@ -409,10 +350,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
-        private imageButton.CustomImageButton customImageButton4;
-        private System.Windows.Forms.Label label5;
-        private imageButton.CustomImageButton customImageButton3;
-        private System.Windows.Forms.Label label4;
         private imageButton.CustomImageButton customImageButton6;
         private imageButton.CustomImageButton customImageButton5;
         private imageButton.CustomImageButton customImageButton1;

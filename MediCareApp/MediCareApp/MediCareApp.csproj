@@ -70,17 +70,29 @@
     <Compile Include="DoctorSinglePatient.Designer.cs">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="ReceptionDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ReceptionDashboard.Designer.cs">
+      <DependentUpon>ReceptionDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="RegisterPatient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="RegisterPatient.Designer.cs">
+      <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPatient.Designer.cs">
+      <DependentUpon>SearchPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseQueue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseQueue.Designer.cs">
+      <DependentUpon>ChooseQueue.cs</DependentUpon>
     </Compile>
     <Compile Include="FormDocLabReports.cs">
       <SubType>Form</SubType>
@@ -105,11 +117,17 @@
     <EmbeddedResource Include="DoctorSinglePatient.resx">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="ReceptionDashboard.resx">
+      <DependentUpon>ReceptionDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="RegisterPatient.resx">
+      <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPatient.resx">
+      <DependentUpon>SearchPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseQueue.resx">
+      <DependentUpon>ChooseQueue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDocLabReports.resx">
       <DependentUpon>FormDocLabReports.cs</DependentUpon>

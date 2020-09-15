@@ -49,3 +49,39 @@ C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App1\MediCareApp
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App1\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CopyComplete
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App1\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App1\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe.config
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\MediCareApp.pdb
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\imageButton.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\MySql.Data.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\Google.Protobuf.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\Zstandard.Net.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\Renci.SshNet.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\System.Buffers.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\System.Memory.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\imageButton.pdb
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\bin\Debug\MySql.Data.xml
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe.config
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorPatientList.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorHome.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorSinglePatient.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReciptionDashboard.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocLabReports.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.FormDocQueue.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Properties.Resources.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CopyComplete
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.patientSearch.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.RegisterPatient.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Choose.resources
