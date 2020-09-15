@@ -19,14 +19,19 @@ namespace MediCareApp
 
         private void oPDToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form newform = new ReciptionPatientList();
+            Form newform = new RegisterPatient();
             newform.Show();
         }
 
         private void customImageButton1_Click(object sender, EventArgs e)
         {
-            Form newform = new ReciptionPatientList();
+            Form newform = new patientSearch();
             newform.Show();
+        }
+
+        private void ReciptionDashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

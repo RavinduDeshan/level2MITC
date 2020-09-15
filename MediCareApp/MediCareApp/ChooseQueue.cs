@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class ReciptionPatientList : Form
+    public partial class Choose : Form
     {
-        public ReciptionPatientList()
+        public Choose()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label2_Click(object sender, EventArgs e)
