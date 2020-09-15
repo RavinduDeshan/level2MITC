@@ -21,5 +21,22 @@ namespace MediCareApp
         {
             Application.Exit();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form newform = new LabReport();
+            newform.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form labass = new LabAssistantHome();
+            labass.Show();
+        }
     }
 }
