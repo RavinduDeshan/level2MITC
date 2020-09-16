@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class Scheduling : Form
+    public partial class AddLabReportDoctor : Form
     {
-        public Scheduling()
+        public AddLabReportDoctor()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

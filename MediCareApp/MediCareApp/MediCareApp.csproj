@@ -50,6 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddLabReportDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLabReportDoctor.Designer.cs">
+      <DependentUpon>AddLabReportDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTreatmentForPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTreatmentForPatient.Designer.cs">
+      <DependentUpon>AddTreatmentForPatient.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttachResult.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +168,12 @@
     <Compile Include="Services\DoctorService.cs" />
     <Compile Include="Services\LabReportService.cs" />
     <Compile Include="Services\PatientServices.cs" />
+    <EmbeddedResource Include="AddLabReportDoctor.resx">
+      <DependentUpon>AddLabReportDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTreatmentForPatient.resx">
+      <DependentUpon>AddTreatmentForPatient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
     </EmbeddedResource>
