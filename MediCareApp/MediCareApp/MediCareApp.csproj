@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttachResult.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Database\DBclass.cs" />
+    <Compile Include="DoctorLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorLogin.Designer.cs">
+      <DependentUpon>DoctorLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="DoctorPatientList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +94,12 @@
     <Compile Include="DoctorSinglePatient.Designer.cs">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="LabAssistantLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabAssistantLogin.Designer.cs">
+      <DependentUpon>LabAssistantLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\LabReport.cs" />
     <Compile Include="Models\Patient.cs" />
     <Compile Include="ReceptionDashboard.cs">
@@ -89,6 +107,12 @@
     </Compile>
     <Compile Include="ReceptionDashboard.Designer.cs">
       <DependentUpon>ReceptionDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptionistLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceptionistLogin.Designer.cs">
+      <DependentUpon>ReceptionistLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="RegisterPatient.cs">
       <SubType>Form</SubType>
@@ -156,11 +180,17 @@
     <Compile Include="Services\DoctorService.cs" />
     <Compile Include="Services\LabReportService.cs" />
     <Compile Include="Services\PatientServices.cs" />
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChannelingDetails.resx">
       <DependentUpon>ChannelingDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorLogin.resx">
+      <DependentUpon>DoctorLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorPatientList.resx">
       <DependentUpon>DoctorPatientList.cs</DependentUpon>
@@ -171,8 +201,17 @@
     <EmbeddedResource Include="DoctorSinglePatient.resx">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LabAssistantLogin.resx">
+      <DependentUpon>LabAssistantLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandingPage.resx">
+      <DependentUpon>LandingPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReceptionDashboard.resx">
       <DependentUpon>ReceptionDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceptionistLogin.resx">
+      <DependentUpon>ReceptionistLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterPatient.resx">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
@@ -309,9 +348,17 @@
     <None Include="Resources\searchIcon30px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\lab_coat_100px.png" />
+    <None Include="Resources\lab_coat_100pxdef.png" />
     <None Include="Resources\cross_100px.png" />
     <None Include="Resources\hospital_96px.png" />
     <None Include="Resources\aed_80px.png" />
+    <None Include="Resources\front_desk_64pxdef.png" />
+    <None Include="Resources\Admin64pxdef.png" />
+    <None Include="Resources\doctor_male_100pxdef.png" />
+    <None Include="Resources\doctor100px.png" />
+    <None Include="Resources\front_desk_64px.png" />
+    <None Include="Resources\Admin64px.png" />
     <Content Include="Resources\labreport.png" />
     <None Include="Resources\medical_bag_48px.png" />
     <None Include="Resources\stethoscope_200px.png" />
