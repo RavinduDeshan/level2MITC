@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddLabReportDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLabReportDoctor.Designer.cs">
+      <DependentUpon>AddLabReportDoctor.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddSchFinal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,12 @@
     </Compile>
     <Compile Include="AddSchSelectDoc.Designer.cs">
       <DependentUpon>AddSchSelectDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTreatmentForPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTreatmentForPatient.Designer.cs">
+      <DependentUpon>AddTreatmentForPatient.cs</DependentUpon>
     </Compile>
     <Compile Include="AdminLogin.cs">
       <SubType>Form</SubType>
@@ -94,6 +106,7 @@
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Database\DBclass.cs" />
+    <Compile Include="Models\Prescription.cs" />
     <Compile Include="OPDDoctorLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,12 +222,14 @@
     <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
     <Compile Include="ServiceImpl\LabReportsServiceImpl.cs" />
     <Compile Include="ServiceImpl\PatientServicesImpl.cs" />
+    <Compile Include="ServiceImpl\PrescriptionServiceImpl.cs" />
     <Compile Include="ServiceImpl\specialistServiceImpl.cs" />
     <Compile Include="Services\ChannelingSheduleService.cs" />
     <Compile Include="Services\DoctorService.cs" />
     <Compile Include="Services\LabReportService.cs" />
     <Compile Include="Services\opdsheduleService.cs" />
     <Compile Include="Services\PatientServices.cs" />
+    <Compile Include="Services\prescriptionsService.cs" />
     <Compile Include="Services\specialistService.cs" />
     <Compile Include="UpdateOpdDoctorShedule.cs">
       <SubType>Form</SubType>
@@ -228,11 +243,17 @@
     <Compile Include="UpdateSchedule.Designer.cs">
       <DependentUpon>UpdateSchedule.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddLabReportDoctor.resx">
+      <DependentUpon>AddLabReportDoctor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddSchFinal.resx">
       <DependentUpon>AddSchFinal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddSchSelectDoc.resx">
       <DependentUpon>AddSchSelectDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTreatmentForPatient.resx">
+      <DependentUpon>AddTreatmentForPatient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>

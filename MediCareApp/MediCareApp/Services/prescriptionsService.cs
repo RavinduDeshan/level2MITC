@@ -1,16 +1,17 @@
 ﻿using MediCareApp.Models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MediCareApp.Services
 {
-    interface specialistService
+    interface prescriptionsService
     {
-        bool validateUser(string Username, string password);
+        DataTable getPrescriptionByPAtient(String Pid);
 
-        string getIdByNIC(string nic);
+        bool AddPrescription(Prescription p);
     }
 }

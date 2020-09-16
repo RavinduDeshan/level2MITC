@@ -17,6 +17,21 @@ namespace MediCareApp.ServiceImpl
     {
 
         MySqlConnection con = new DBclass().getConnection();
+
+        public string getIdByNIC(string nic)
+        {
+            MessageBox.Show("NIC Passing is "+ nic);
+
+            MySqlDataAdapter data = new MySqlDataAdapter("getIDbyNICSpecialist", this.con);
+            data.SelectCommand.CommandType = CommandType.StoredProcedure;
+            data.SelectCommand.Parameters.AddWithValue("_nic", nic);
+            DataTable table = new DataTable();
+            data.Fill(table);
+
+            return table.Rows[0][0].ToString();
+
+        }
+
         public bool validateUser(string Username, string password)
         {
             MySqlDataAdapter data = new MySqlDataAdapter("getSpecialDoctorPassword", this.con);
@@ -25,9 +40,10 @@ namespace MediCareApp.ServiceImpl
             DataTable table = new DataTable();
             data.Fill(table);
 
-           
 
-           
+            
+
+
 
             if (table.Rows.Count > 0)
             {

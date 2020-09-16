@@ -23,6 +23,7 @@ namespace MediCareApp
             {
                 Form newform = new DoctorHome();
                 newform.Show();
+                Dispose();
             }
             else
             {

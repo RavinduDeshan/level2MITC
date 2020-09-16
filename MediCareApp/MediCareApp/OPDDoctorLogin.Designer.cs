@@ -67,7 +67,6 @@
             this.backmenue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backmenue.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backmenue.ForeColor = System.Drawing.Color.ForestGreen;
-            this.backmenue.Image = global::MediCareApp.Properties.Resources.report_card_50px;
             this.backmenue.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.backmenue.Location = new System.Drawing.Point(263, 412);
             this.backmenue.Name = "backmenue";
@@ -78,13 +77,12 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackColor = System.Drawing.Color.PaleGreen;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.ForestGreen;
-            this.button1.Image = global::MediCareApp.Properties.Resources.view_more_24px;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(433, 412);
             this.button1.Name = "button1";

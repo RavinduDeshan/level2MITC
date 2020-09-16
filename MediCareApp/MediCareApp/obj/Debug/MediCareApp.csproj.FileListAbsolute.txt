@@ -172,3 +172,5 @@ D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.UpdateSc
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChannelingDoctorLogin.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChooseDoctorType.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.OPDDoctorLogin.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AddLabReportDoctor.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AddTreatmentForPatient.resources

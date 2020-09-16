@@ -14,7 +14,7 @@ namespace MediCareApp
 {
     public partial class DoctorHome : Form
     {
-        int count;
+        
         string nic;
         PatientServicesImpl serv = new PatientServicesImpl();
         public DoctorHome()
@@ -23,13 +23,15 @@ namespace MediCareApp
             //setLabels();
         }
 
-        public DoctorHome(string nic, int validator)
+        public DoctorHome(string nic)
         {
             InitializeComponent();
 
             this.nic = nic;
 
             setLabels();
+
+           
 
 
 
@@ -53,7 +55,7 @@ namespace MediCareApp
 
         private void customImageButton1_Click(object sender, EventArgs e)
         {
-            Form newform = new DoctorPatientList();
+            Form newform = new DoctorPatientList("981570901V");
             newform.Show();
         }
 

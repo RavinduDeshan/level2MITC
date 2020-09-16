@@ -30,7 +30,12 @@ namespace MediCareApp
            if (serv.validateUser(CDLusername.Text, CDLPass.Text))
             {
                 MessageBox.Show("Doctor Validated Successfully!","Validated!",MessageBoxButtons.OK,MessageBoxIcon.Information);
-                new DoctorHome(CDLusername.Text, 1).Show();
+                Dispose();
+
+                string nic = CDLusername.Text.ToString();
+
+                
+                new DoctorHome("981570901V").Show();
                 
 
             }
@@ -38,6 +43,11 @@ namespace MediCareApp
             {
                 MessageBox.Show("Invalid Credentials, Re-Try", "Validation Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void backmenue_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
     }
 }

@@ -37,10 +37,8 @@
             this.btnviewreport = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -81,8 +79,9 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1211, 772);
+            this.panel1.Size = new System.Drawing.Size(908, 627);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -91,10 +90,9 @@
             this.customImageButton1.Image = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
             this.customImageButton1.ImageDefault = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
             this.customImageButton1.ImageHover = global::MediCareApp.Properties.Resources.searchIcon30px;
-            this.customImageButton1.Location = new System.Drawing.Point(1054, 61);
-            this.customImageButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.customImageButton1.Location = new System.Drawing.Point(790, 50);
             this.customImageButton1.Name = "customImageButton1";
-            this.customImageButton1.Size = new System.Drawing.Size(47, 43);
+            this.customImageButton1.Size = new System.Drawing.Size(35, 35);
             this.customImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.customImageButton1.TabIndex = 29;
             this.customImageButton1.TabStop = false;
@@ -102,9 +100,10 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(783, 68);
+            this.textBox1.Location = new System.Drawing.Point(587, 55);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 30);
+            this.textBox1.Size = new System.Drawing.Size(199, 26);
             this.textBox1.TabIndex = 28;
             // 
             // button3
@@ -112,9 +111,10 @@
             this.button3.BackColor = System.Drawing.Color.Green;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(978, 654);
+            this.button3.Location = new System.Drawing.Point(734, 531);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(159, 67);
+            this.button3.Size = new System.Drawing.Size(119, 54);
             this.button3.TabIndex = 24;
             this.button3.Text = "Add Request";
             this.button3.UseVisualStyleBackColor = false;
@@ -125,10 +125,9 @@
             this.customImageButton2.Image = global::MediCareApp.Properties.Resources.lab_items_60pxdef;
             this.customImageButton2.ImageDefault = global::MediCareApp.Properties.Resources.lab_items_60pxdef;
             this.customImageButton2.ImageHover = global::MediCareApp.Properties.Resources.lab_items_60pxdef;
-            this.customImageButton2.Location = new System.Drawing.Point(45, 25);
-            this.customImageButton2.Margin = new System.Windows.Forms.Padding(4);
+            this.customImageButton2.Location = new System.Drawing.Point(34, 20);
             this.customImageButton2.Name = "customImageButton2";
-            this.customImageButton2.Size = new System.Drawing.Size(128, 108);
+            this.customImageButton2.Size = new System.Drawing.Size(96, 88);
             this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.customImageButton2.TabIndex = 18;
             this.customImageButton2.TabStop = false;
@@ -138,9 +137,10 @@
             this.btnviewreport.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnviewreport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnviewreport.ForeColor = System.Drawing.Color.Green;
-            this.btnviewreport.Location = new System.Drawing.Point(399, 654);
+            this.btnviewreport.Location = new System.Drawing.Point(299, 531);
+            this.btnviewreport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnviewreport.Name = "btnviewreport";
-            this.btnviewreport.Size = new System.Drawing.Size(159, 67);
+            this.btnviewreport.Size = new System.Drawing.Size(119, 54);
             this.btnviewreport.TabIndex = 16;
             this.btnviewreport.Text = "View Report";
             this.btnviewreport.UseVisualStyleBackColor = false;
@@ -149,10 +149,10 @@
             // panel6
             // 
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Controls.Add(this.tableLayoutPanel3);
-            this.panel6.Location = new System.Drawing.Point(520, 169);
+            this.panel6.Location = new System.Drawing.Point(390, 137);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(381, 419);
+            this.panel6.Size = new System.Drawing.Size(286, 340);
             this.panel6.TabIndex = 14;
             // 
             // label6
@@ -160,50 +160,20 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label6.Location = new System.Drawing.Point(4, 10);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(3, 8);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(222, 29);
+            this.label6.Size = new System.Drawing.Size(172, 24);
             this.label6.TabIndex = 12;
             this.label6.Text = "Requested Reports";
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 4;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(32, 54);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 15;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(311, 180);
-            this.tableLayoutPanel3.TabIndex = 6;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.tableLayoutPanel1);
-            this.panel3.Location = new System.Drawing.Point(56, 169);
+            this.panel3.Location = new System.Drawing.Point(42, 137);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(381, 419);
+            this.panel3.Size = new System.Drawing.Size(286, 340);
             this.panel3.TabIndex = 12;
             // 
             // label5
@@ -211,51 +181,20 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label5.Location = new System.Drawing.Point(4, 10);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(3, 8);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(201, 29);
+            this.label5.Size = new System.Drawing.Size(156, 24);
             this.label5.TabIndex = 12;
             this.label5.Text = "Received Results";
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(32, 54);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 15;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(311, 180);
-            this.tableLayoutPanel1.TabIndex = 6;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.RoyalBlue;
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(965, 153);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(724, 124);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(192, 109);
+            this.panel2.Size = new System.Drawing.Size(144, 89);
             this.panel2.TabIndex = 10;
             // 
             // label3
@@ -263,10 +202,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(11, 16);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(8, 13);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 24);
+            this.label3.Size = new System.Drawing.Size(123, 18);
             this.label3.TabIndex = 3;
             this.label3.Text = "Received Results";
             // 
@@ -275,10 +213,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(55, 51);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(41, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 40);
+            this.label4.Size = new System.Drawing.Size(66, 33);
             this.label4.TabIndex = 2;
             this.label4.Text = "340";
             // 
@@ -287,10 +224,9 @@
             this.panel7.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel7.Controls.Add(this.totPendingLabsLabel);
             this.panel7.Controls.Add(this.label2);
-            this.panel7.Location = new System.Drawing.Point(965, 287);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4);
+            this.panel7.Location = new System.Drawing.Point(724, 233);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(192, 109);
+            this.panel7.Size = new System.Drawing.Size(144, 89);
             this.panel7.TabIndex = 7;
             // 
             // totPendingLabsLabel
@@ -298,10 +234,9 @@
             this.totPendingLabsLabel.AutoSize = true;
             this.totPendingLabsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totPendingLabsLabel.ForeColor = System.Drawing.Color.Transparent;
-            this.totPendingLabsLabel.Location = new System.Drawing.Point(2, 16);
-            this.totPendingLabsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.totPendingLabsLabel.Location = new System.Drawing.Point(2, 13);
             this.totPendingLabsLabel.Name = "totPendingLabsLabel";
-            this.totPendingLabsLabel.Size = new System.Drawing.Size(187, 24);
+            this.totPendingLabsLabel.Size = new System.Drawing.Size(146, 18);
             this.totPendingLabsLabel.TabIndex = 1;
             this.totPendingLabsLabel.Text = "Pending Lab Reports";
             // 
@@ -310,10 +245,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(53, 51);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(40, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 40);
+            this.label2.Size = new System.Drawing.Size(66, 33);
             this.label2.TabIndex = 0;
             this.label2.Text = "340";
             // 
@@ -322,10 +256,9 @@
             this.panel4.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Location = new System.Drawing.Point(965, 421);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
+            this.panel4.Location = new System.Drawing.Point(724, 342);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(192, 109);
+            this.panel4.Size = new System.Drawing.Size(144, 89);
             this.panel4.TabIndex = 8;
             // 
             // label9
@@ -333,11 +266,10 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(15, 9);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.MaximumSize = new System.Drawing.Size(190, 48);
+            this.label9.Location = new System.Drawing.Point(11, 7);
+            this.label9.MaximumSize = new System.Drawing.Size(142, 39);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(157, 48);
+            this.label9.Size = new System.Drawing.Size(126, 36);
             this.label9.TabIndex = 1;
             this.label9.Text = "Total Lab Reports Issued";
             this.label9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -347,10 +279,9 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Transparent;
-            this.label15.Location = new System.Drawing.Point(56, 57);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(42, 46);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(80, 40);
+            this.label15.Size = new System.Drawing.Size(66, 33);
             this.label15.TabIndex = 0;
             this.label15.Text = "340";
             // 
@@ -359,10 +290,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(181, 25);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(136, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(482, 91);
+            this.label1.Size = new System.Drawing.Size(393, 73);
             this.label1.TabIndex = 4;
             this.label1.Text = "Lab Reports";
             // 
@@ -371,10 +301,9 @@
             this.customImageButton5.Image = global::MediCareApp.Properties.Resources.exit_sign_100pxdef;
             this.customImageButton5.ImageDefault = global::MediCareApp.Properties.Resources.exit_sign_100pxdef;
             this.customImageButton5.ImageHover = global::MediCareApp.Properties.Resources.exit_sign_100px;
-            this.customImageButton5.Location = new System.Drawing.Point(1148, 25);
-            this.customImageButton5.Margin = new System.Windows.Forms.Padding(4);
+            this.customImageButton5.Location = new System.Drawing.Point(861, 20);
             this.customImageButton5.Name = "customImageButton5";
-            this.customImageButton5.Size = new System.Drawing.Size(37, 33);
+            this.customImageButton5.Size = new System.Drawing.Size(28, 27);
             this.customImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.customImageButton5.TabIndex = 3;
             this.customImageButton5.TabStop = false;
@@ -382,11 +311,12 @@
             // 
             // FormDocLabReports
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1211, 772);
+            this.ClientSize = new System.Drawing.Size(908, 627);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormDocLabReports";
             this.Text = "FormDocLabReports";
             this.panel1.ResumeLayout(false);
@@ -418,10 +348,8 @@
         private System.Windows.Forms.Button btnviewreport;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

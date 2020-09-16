@@ -8,7 +8,7 @@ using MediCareApp.Models;
 using MediCareApp.Services;
 using MediCareApp.Database;
 using System.Data;
-
+using System.Windows.Forms;
 
 namespace MediCareApp.ServiceImpl
 {
@@ -67,7 +67,24 @@ namespace MediCareApp.ServiceImpl
 
         public Patient getAsinglePatient(string id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                MySqlDataAdapter data = new MySqlDataAdapter("getPatientbyId", this.con);
+                data.SelectCommand.CommandType = CommandType.StoredProcedure;
+                data.SelectCommand.Parameters.AddWithValue("_patientid", id);
+                DataTable table = new DataTable();
+                data.Fill(table);
+
+                return new Patient(table.Rows[0][0].ToString(), table.Rows[0][1].ToString(), table.Rows[0][2].ToString(), table.Rows[0][3].ToString(), table.Rows[0][4].ToString(), table.Rows[0][5].ToString(), table.Rows[0][6].ToString(), table.Rows[0][7].ToString(), table.Rows[0][8].ToString(), table.Rows[0][9].ToString());
+
+            }
+            catch (MySqlException error2)
+            {
+                MessageBox.Show("Connection Error Ocuured During Load Patient Data, Please Re-Try again!", "Connection Error",
+                                 MessageBoxButtons.OK,
+                                 MessageBoxIcon.Information);
+            }
+            return null;
         }
 
         public DataTable getpatientList()
