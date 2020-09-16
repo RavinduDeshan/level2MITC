@@ -20,12 +20,14 @@ namespace MediCareApp
         private void oPDToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form newform = new RegisterPatient();
+            Dispose();
             newform.Show();
         }
 
         private void customImageButton1_Click(object sender, EventArgs e)
         {
             Form newform = new patientSearch();
+            Dispose();
             newform.Show();
         }
 
