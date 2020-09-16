@@ -28,43 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.customImageButton1 = new imageButton.CustomImageButton();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.customImageButton2 = new imageButton.CustomImageButton();
             this.viewMore = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
+            this.customImageButton2 = new imageButton.CustomImageButton();
+            this.customImageButton1 = new imageButton.CustomImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // customImageButton1
-            // 
-            this.customImageButton1.Image = global::MediCareApp.Properties.Resources.stethoscope_200px;
-            this.customImageButton1.ImageDefault = global::MediCareApp.Properties.Resources.fever_200pxdef;
-            this.customImageButton1.ImageHover = global::MediCareApp.Properties.Resources.fever_200pxdef;
-            this.customImageButton1.Location = new System.Drawing.Point(12, 31);
-            this.customImageButton1.Name = "customImageButton1";
-            this.customImageButton1.Size = new System.Drawing.Size(96, 88);
-            this.customImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.customImageButton1.TabIndex = 14;
-            this.customImageButton1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Tw Cen MT", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(114, 55);
+            this.label1.Location = new System.Drawing.Point(123, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(512, 73);
+            this.label1.Size = new System.Drawing.Size(438, 74);
             this.label1.TabIndex = 15;
             this.label1.Text = "Select Schedule";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightGreen;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(136, 186);
             this.dataGridView1.Name = "dataGridView1";
@@ -78,18 +67,6 @@
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(236, 31);
             this.maskedTextBox1.TabIndex = 35;
-            // 
-            // customImageButton2
-            // 
-            this.customImageButton2.Image = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
-            this.customImageButton2.ImageDefault = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
-            this.customImageButton2.ImageHover = global::MediCareApp.Properties.Resources.searchIcon30px;
-            this.customImageButton2.Location = new System.Drawing.Point(658, 145);
-            this.customImageButton2.Name = "customImageButton2";
-            this.customImageButton2.Size = new System.Drawing.Size(35, 35);
-            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.customImageButton2.TabIndex = 34;
-            this.customImageButton2.TabStop = false;
             // 
             // viewMore
             // 
@@ -108,6 +85,30 @@
             this.viewMore.Text = "Add To Queue";
             this.viewMore.UseVisualStyleBackColor = false;
             // 
+            // customImageButton2
+            // 
+            this.customImageButton2.Image = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
+            this.customImageButton2.ImageDefault = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
+            this.customImageButton2.ImageHover = global::MediCareApp.Properties.Resources.searchIcon30px;
+            this.customImageButton2.Location = new System.Drawing.Point(658, 141);
+            this.customImageButton2.Name = "customImageButton2";
+            this.customImageButton2.Size = new System.Drawing.Size(35, 35);
+            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton2.TabIndex = 34;
+            this.customImageButton2.TabStop = false;
+            // 
+            // customImageButton1
+            // 
+            this.customImageButton1.Image = global::MediCareApp.Properties.Resources.stethoscope_200px;
+            this.customImageButton1.ImageDefault = global::MediCareApp.Properties.Resources.fever_200pxdef;
+            this.customImageButton1.ImageHover = global::MediCareApp.Properties.Resources.fever_200pxdef;
+            this.customImageButton1.Location = new System.Drawing.Point(12, 31);
+            this.customImageButton1.Name = "customImageButton1";
+            this.customImageButton1.Size = new System.Drawing.Size(96, 88);
+            this.customImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton1.TabIndex = 14;
+            this.customImageButton1.TabStop = false;
+            // 
             // selectSchedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,9 +122,9 @@
             this.Controls.Add(this.customImageButton1);
             this.Name = "selectSchedule";
             this.Text = "selectSchedule";
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

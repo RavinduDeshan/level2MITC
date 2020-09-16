@@ -50,17 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddLabReportDoctor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddLabReportDoctor.Designer.cs">
-      <DependentUpon>AddLabReportDoctor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AddTreatmentForPatient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddTreatmentForPatient.Designer.cs">
-      <DependentUpon>AddTreatmentForPatient.cs</DependentUpon>
+    <Compile Include="AddScheduleChannelling.cs" />
+    <Compile Include="AddScheduleChannelling.Designer.cs">
+      <DependentUpon>AddScheduleChannelling.cs</DependentUpon>
     </Compile>
     <Compile Include="AttachResult.cs">
       <SubType>Form</SubType>
@@ -107,6 +99,12 @@
     </Compile>
     <Compile Include="RegisterPatient.Designer.cs">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scheduling.Designer.cs">
+      <DependentUpon>Scheduling.cs</DependentUpon>
     </Compile>
     <Compile Include="SearchPatient.cs">
       <SubType>Form</SubType>
@@ -168,11 +166,8 @@
     <Compile Include="Services\DoctorService.cs" />
     <Compile Include="Services\LabReportService.cs" />
     <Compile Include="Services\PatientServices.cs" />
-    <EmbeddedResource Include="AddLabReportDoctor.resx">
-      <DependentUpon>AddLabReportDoctor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AddTreatmentForPatient.resx">
-      <DependentUpon>AddTreatmentForPatient.cs</DependentUpon>
+    <EmbeddedResource Include="AddScheduleChannelling.resx">
+      <DependentUpon>AddScheduleChannelling.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
@@ -194,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterPatient.resx">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scheduling.resx">
+      <DependentUpon>Scheduling.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SearchPatient.resx">
       <DependentUpon>SearchPatient.cs</DependentUpon>
