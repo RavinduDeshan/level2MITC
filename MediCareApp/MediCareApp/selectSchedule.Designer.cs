@@ -31,9 +31,9 @@
             this.customImageButton1 = new imageButton.CustomImageButton();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.customImageButton2 = new imageButton.CustomImageButton();
             this.viewMore = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
@@ -65,19 +65,12 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightGreen;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(136, 186);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(557, 150);
             this.dataGridView1.TabIndex = 36;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(416, 145);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(236, 31);
-            this.maskedTextBox1.TabIndex = 35;
             // 
             // customImageButton2
             // 
@@ -90,6 +83,7 @@
             this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.customImageButton2.TabIndex = 34;
             this.customImageButton2.TabStop = false;
+            this.customImageButton2.Click += new System.EventHandler(this.customImageButton2_Click);
             // 
             // viewMore
             // 
@@ -107,20 +101,30 @@
             this.viewMore.TabIndex = 37;
             this.viewMore.Text = "Add To Queue";
             this.viewMore.UseVisualStyleBackColor = false;
+            this.viewMore.Click += new System.EventHandler(this.viewMore_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(414, 148);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(238, 31);
+            this.textBox1.TabIndex = 43;
             // 
             // selectSchedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.viewMore);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.customImageButton2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.customImageButton1);
             this.Name = "selectSchedule";
             this.Text = "selectSchedule";
+            this.Load += new System.EventHandler(this.selectSchedule_Load);
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
@@ -134,8 +138,8 @@
         private imageButton.CustomImageButton customImageButton1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private imageButton.CustomImageButton customImageButton2;
         private System.Windows.Forms.Button viewMore;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

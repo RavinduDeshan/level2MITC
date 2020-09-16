@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediCareApp.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,23 @@ namespace MediCareApp
 {
     public partial class ChannelingDetails : Form
     {
+        Patient p;
+        Queue q;
+
         public ChannelingDetails()
         {
             InitializeComponent();
         }
+
+        public ChannelingDetails(Object p, Object q)
+        {
+            InitializeComponent();
+            this.p = (Patient)p;
+            this.q = (Queue)q;
+
+
+        }
+
 
         private void label3_Click(object sender, EventArgs e)
         {

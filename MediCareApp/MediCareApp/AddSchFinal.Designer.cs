@@ -113,9 +113,9 @@
             this.label5.ForeColor = System.Drawing.Color.Green;
             this.label5.Location = new System.Drawing.Point(411, 260);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(103, 24);
+            this.label5.Size = new System.Drawing.Size(106, 24);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Select Date";
+            this.label5.Text = "Select Time";
             // 
             // maskedTextBox1
             // 
@@ -208,6 +208,7 @@
             this.viewMore.TabIndex = 42;
             this.viewMore.Text = "Add Schedule";
             this.viewMore.UseVisualStyleBackColor = false;
+            this.viewMore.Click += new System.EventHandler(this.viewMore_Click);
             // 
             // AddSchFinal
             // 
@@ -230,6 +231,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AddSchFinal";
             this.Text = "AddSchFinal";
+            this.Load += new System.EventHandler(this.AddSchFinal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

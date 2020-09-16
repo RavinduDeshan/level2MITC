@@ -35,5 +35,16 @@ namespace MediCareApp
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customImageButton2_Click(object sender, EventArgs e)
+        {
+            Scheduling obj = new Scheduling();
+            obj.Show();
+        }
     }
 }

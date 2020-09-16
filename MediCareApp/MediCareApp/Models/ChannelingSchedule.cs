@@ -8,8 +8,13 @@ namespace MediCareApp.Models
 {
     class ChannelingSchedule : OpdShedule
     {
-        public ChannelingSchedule(string id, string doctorId, string doctorName, string queid, string time , string date) : base(id, doctorId, doctorName, queid, time)
+        protected string date;
+        public ChannelingSchedule(string id,string doctorId, string doctorName, string time , string date) : base(id,doctorId, doctorName, time)
         {
+            this.date = date;
         }
+
+        public string Date { get => time; set => time = value; }
+
     }
 }

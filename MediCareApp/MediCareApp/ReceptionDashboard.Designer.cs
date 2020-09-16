@@ -53,6 +53,9 @@
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageScheduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.customImageButton2 = new imageButton.CustomImageButton();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -61,6 +64,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,6 +79,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel2.Controls.Add(this.customImageButton2);
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.customImageButton6);
@@ -185,7 +191,7 @@
             this.customImageButton1.Image = global::MediCareApp.Properties.Resources.fever_200pxdef;
             this.customImageButton1.ImageDefault = global::MediCareApp.Properties.Resources.fever_200pxdef;
             this.customImageButton1.ImageHover = global::MediCareApp.Properties.Resources.fever_200px;
-            this.customImageButton1.Location = new System.Drawing.Point(408, 77);
+            this.customImageButton1.Location = new System.Drawing.Point(308, 77);
             this.customImageButton1.Name = "customImageButton1";
             this.customImageButton1.Size = new System.Drawing.Size(96, 88);
             this.customImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -198,7 +204,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(422, 168);
+            this.label2.Location = new System.Drawing.Point(324, 168);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 20);
             this.label2.TabIndex = 0;
@@ -243,7 +249,8 @@
             this.quickStartToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.oPDToolStripMenuItem,
             this.channelingToolStripMenuItem,
-            this.patientHistoryToolStripMenuItem});
+            this.patientHistoryToolStripMenuItem,
+            this.manageScheduleToolStripMenuItem});
             this.quickStartToolStripMenuItem.Name = "quickStartToolStripMenuItem";
             this.quickStartToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.quickStartToolStripMenuItem.Text = "Quick Start";
@@ -251,20 +258,20 @@
             // oPDToolStripMenuItem
             // 
             this.oPDToolStripMenuItem.Name = "oPDToolStripMenuItem";
-            this.oPDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oPDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.oPDToolStripMenuItem.Text = "OPD";
             this.oPDToolStripMenuItem.Click += new System.EventHandler(this.oPDToolStripMenuItem_Click);
             // 
             // channelingToolStripMenuItem
             // 
             this.channelingToolStripMenuItem.Name = "channelingToolStripMenuItem";
-            this.channelingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.channelingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.channelingToolStripMenuItem.Text = "Channeling";
             // 
             // patientHistoryToolStripMenuItem
             // 
             this.patientHistoryToolStripMenuItem.Name = "patientHistoryToolStripMenuItem";
-            this.patientHistoryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.patientHistoryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.patientHistoryToolStripMenuItem.Text = "Patient History";
             // 
             // accountToolStripMenuItem
@@ -279,13 +286,13 @@
             // myProfileToolStripMenuItem
             // 
             this.myProfileToolStripMenuItem.Name = "myProfileToolStripMenuItem";
-            this.myProfileToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.myProfileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.myProfileToolStripMenuItem.Text = "My Profile";
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.logOutToolStripMenuItem.Text = "Log Out";
             // 
             // helpToolStripMenuItem
@@ -299,8 +306,40 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // manageScheduleToolStripMenuItem
+            // 
+            this.manageScheduleToolStripMenuItem.Name = "manageScheduleToolStripMenuItem";
+            this.manageScheduleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.manageScheduleToolStripMenuItem.Text = "Manage Schedule";
+            // 
+            // customImageButton2
+            // 
+            this.customImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customImageButton2.Image = global::MediCareApp.Properties.Resources.timesheet_128px;
+            this.customImageButton2.ImageDefault = global::MediCareApp.Properties.Resources.fever_200pxdef;
+            this.customImageButton2.ImageHover = global::MediCareApp.Properties.Resources.fever_200px;
+            this.customImageButton2.Location = new System.Drawing.Point(502, 77);
+            this.customImageButton2.Name = "customImageButton2";
+            this.customImageButton2.Size = new System.Drawing.Size(96, 88);
+            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton2.TabIndex = 4;
+            this.customImageButton2.TabStop = false;
+            this.customImageButton2.Click += new System.EventHandler(this.customImageButton2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Gray;
+            this.label3.Location = new System.Drawing.Point(507, 168);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(88, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Scheduling";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // ReciptionDashboard
             // 
@@ -326,6 +365,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -356,5 +396,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
+        private imageButton.CustomImageButton customImageButton2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem manageScheduleToolStripMenuItem;
     }
 }
