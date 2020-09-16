@@ -11,11 +11,10 @@ namespace MediCareApp.Models
 
         private string specialization;
 
-        public Specialist(string id, string firstName, string lastName, string middleName,  string tel, string email, string qualification, string gender, string specialization) : base(id, firstName, lastName, middleName, tel, email, qualification, gender)
+        public Specialist(string id, string firstName, string lastName, string middleName, string tel, string email, string qualification, string gender, string nic, string passoword,string specialization) : base(id, firstName, lastName, middleName, tel, email, qualification, gender, nic, passoword)
         {
+
             this.specialization = specialization;
         }
-
-        
     }
 }

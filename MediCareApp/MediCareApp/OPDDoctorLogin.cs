@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class DoctorLogin : Form
+    public partial class OPDDoctorLogin : Form
     {
-        public DoctorLogin()
+        public OPDDoctorLogin()
         {
             InitializeComponent();
         }
@@ -23,6 +23,7 @@ namespace MediCareApp
             {
                 Form newform = new DoctorHome();
                 newform.Show();
+                Dispose();
             }
             else
             {

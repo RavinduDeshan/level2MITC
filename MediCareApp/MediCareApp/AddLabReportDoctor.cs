@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class Choose : Form
+    public partial class AddLabReportDoctor : Form
     {
-        public Choose()
+        public AddLabReportDoctor()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void customImageButton1_Click(object sender, EventArgs e)
-        {
-            new OPDDoctorLogin().Show();
-            this.Dispose();
         }
     }
 }

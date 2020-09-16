@@ -29,5 +29,11 @@ namespace MediCareApp
                 MessageBox.Show("Invalid credentials", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void backmenue_Click(object sender, EventArgs e)
+        {
+            Dispose();
+            new LandingPage().Show();
+        }
     }
 }

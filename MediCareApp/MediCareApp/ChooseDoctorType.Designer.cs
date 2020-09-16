@@ -1,6 +1,6 @@
 ﻿namespace MediCareApp
 {
-    partial class Choose
+    partial class ChooseDoctorType
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.quickStartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oPDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.channelingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.patientHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.myProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChooseDoctorType));
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,88 +37,12 @@
             this.customImageButton6 = new imageButton.CustomImageButton();
             this.customImageButton5 = new imageButton.CustomImageButton();
             this.customImageButton1 = new imageButton.CustomImageButton();
-            this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.quickStartToolStripMenuItem,
-            this.accountToolStripMenuItem,
-            this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // quickStartToolStripMenuItem
-            // 
-            this.quickStartToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.oPDToolStripMenuItem,
-            this.channelingToolStripMenuItem,
-            this.patientHistoryToolStripMenuItem});
-            this.quickStartToolStripMenuItem.Name = "quickStartToolStripMenuItem";
-            this.quickStartToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.quickStartToolStripMenuItem.Text = "Quick Start";
-            // 
-            // oPDToolStripMenuItem
-            // 
-            this.oPDToolStripMenuItem.Name = "oPDToolStripMenuItem";
-            this.oPDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.oPDToolStripMenuItem.Text = "OPD";
-            // 
-            // channelingToolStripMenuItem
-            // 
-            this.channelingToolStripMenuItem.Name = "channelingToolStripMenuItem";
-            this.channelingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.channelingToolStripMenuItem.Text = "Channeling";
-            // 
-            // patientHistoryToolStripMenuItem
-            // 
-            this.patientHistoryToolStripMenuItem.Name = "patientHistoryToolStripMenuItem";
-            this.patientHistoryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.patientHistoryToolStripMenuItem.Text = "Patient History";
-            // 
-            // accountToolStripMenuItem
-            // 
-            this.accountToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.myProfileToolStripMenuItem,
-            this.logOutToolStripMenuItem});
-            this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.accountToolStripMenuItem.Text = "Account";
-            // 
-            // myProfileToolStripMenuItem
-            // 
-            this.myProfileToolStripMenuItem.Name = "myProfileToolStripMenuItem";
-            this.myProfileToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.myProfileToolStripMenuItem.Text = "My Profile";
-            // 
-            // logOutToolStripMenuItem
-            // 
-            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.logOutToolStripMenuItem.Text = "Log Out";
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.aboutToolStripMenuItem.Text = "About";
             // 
             // panel2
             // 
@@ -140,10 +55,10 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 24);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 426);
-            this.panel2.TabIndex = 5;
+            this.panel2.Size = new System.Drawing.Size(800, 368);
+            this.panel2.TabIndex = 6;
             // 
             // label4
             // 
@@ -166,7 +81,6 @@
             this.label2.Size = new System.Drawing.Size(43, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "OPD";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -175,9 +89,9 @@
             this.label1.ForeColor = System.Drawing.Color.Green;
             this.label1.Location = new System.Drawing.Point(323, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 25);
+            this.label1.Size = new System.Drawing.Size(151, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Choose Queue";
+            this.label1.Text = "Choose Type";
             // 
             // customImageButton3
             // 
@@ -191,6 +105,7 @@
             this.customImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.customImageButton3.TabIndex = 1;
             this.customImageButton3.TabStop = false;
+            this.customImageButton3.Click += new System.EventHandler(this.customImageButton3_Click);
             // 
             // customImageButton6
             // 
@@ -232,17 +147,17 @@
             this.customImageButton1.TabStop = false;
             this.customImageButton1.Click += new System.EventHandler(this.customImageButton1_Click);
             // 
-            // Choose
+            // ChooseDoctorType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 368);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.menuStrip1);
-            this.Name = "Choose";
-            this.Text = "MediCare- OPD/Channeling";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "ChooseDoctorType";
+            this.Text = "Doctor Login";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
@@ -250,22 +165,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem quickStartToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem oPDToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem channelingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem patientHistoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem accountToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem myProfileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
         private imageButton.CustomImageButton customImageButton3;
         private System.Windows.Forms.Label label4;
