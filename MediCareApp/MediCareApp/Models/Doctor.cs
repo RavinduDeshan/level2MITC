@@ -12,13 +12,14 @@ namespace MediCareApp.Models
         protected string firstName;
         protected string lastName;
         protected string middleName;
-        protected string specialization;
         protected string tel;
         protected string email;
         protected string qualification;
         protected string gender;
+        protected string nic;
+        protected string passoword;
 
-        public Doctor(string id, string firstName, string lastName, string middleName,string tel, string email, string qualification, string gender)
+        public Doctor(string id, string firstName, string lastName, string middleName, string tel, string email, string qualification, string gender, string nic, string passoword)
         {
             this.id = id;
             this.firstName = firstName;
@@ -28,17 +29,21 @@ namespace MediCareApp.Models
             this.email = email;
             this.qualification = qualification;
             this.gender = gender;
+            this.nic = nic;
+            this.passoword = passoword;
         }
 
-        
+
         public string ID { get => id; set => id = value; }
-        public string FirstName { get => firstName; set => firstName = value; }
-        public string LastName { get => lastName; set => lastName = value; }
-        public string MiddleName { get => middleName; set => middleName = value; }
+        public string Fname { get => firstName; set => firstName = value; }
+        public string Lname { get => lastName; set => lastName = value; }
         public string Tel { get => tel; set => tel = value; }
+
         public string Email { get => email; set => email = value; }
         public string Qualification { get => qualification; set => qualification = value; }
         public string Gender { get => gender; set => gender = value; }
-       
+        public string Nic { get => Nic; set => Nic = value; }
+        public string Passoword { get => passoword; set => passoword = value; }
+        
     }
 }

@@ -45,9 +45,24 @@ namespace MediCareApp.ServiceImpl
             }
         }
 
-        public int getAllPatientCount(Patient P)
+        public int getAllPatientCount()
         {
-            throw new NotImplementedException();
+            MySqlDataAdapter data = new MySqlDataAdapter("getAllPatientCount", this.con);
+            data.SelectCommand.CommandType = CommandType.StoredProcedure;
+            DataTable table = new DataTable();
+            data.Fill(table);
+            int val;
+            try
+            {
+                val = Convert.ToInt32(table.Rows[0][0]) + 0;
+
+            }
+            catch (InvalidCastException e)
+            {
+                return 0;
+            }
+
+            return val;
         }
 
         public Patient getAsinglePatient(string id)
@@ -55,9 +70,13 @@ namespace MediCareApp.ServiceImpl
             throw new NotImplementedException();
         }
 
-        public bool getpatientList()
+        public DataTable getpatientList()
         {
-            throw new NotImplementedException();
+            MySqlDataAdapter data = new MySqlDataAdapter("getAllPatients", this.con);
+            data.SelectCommand.CommandType = CommandType.StoredProcedure;
+            DataTable table = new DataTable();
+            data.Fill(table);
+            return table;
         }
 
         public bool updatePatient()

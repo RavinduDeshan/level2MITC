@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediCareApp.ServiceImpl;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace MediCareApp
 {
     public partial class DoctorPatientList : Form
     {
+
+        PatientServicesImpl serv = new PatientServicesImpl();
         public DoctorPatientList()
         {
             InitializeComponent();
+            setLabels();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -26,6 +30,22 @@ namespace MediCareApp
         {
             Form newform = new DoctorSinglePatient();
             newform.Show();
+        }
+
+        private void DoctorPatientList_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void setLabels()
+        {
+            totPatientCountLabel.Text = serv.getAllPatientCount().ToString();
+            gridPatient.DataSource = serv.getpatientList();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            setLabels();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,11 +13,11 @@ namespace MediCareApp.Services
     {
         bool AddPatient(Patient P);
 
-       int getAllPatientCount(Patient P);
+       int getAllPatientCount();
 
         Patient getAsinglePatient(string id);
 
-        bool getpatientList();
+        DataTable getpatientList();
 
         bool updatePatient();
 

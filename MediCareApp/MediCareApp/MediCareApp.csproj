@@ -80,13 +80,25 @@
     <Compile Include="ChannelingDetails.Designer.cs">
       <DependentUpon>ChannelingDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Database\DBclass.cs" />
-    <Compile Include="DoctorLogin.cs">
+    <Compile Include="ChannelingDoctorLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DoctorLogin.Designer.cs">
-      <DependentUpon>DoctorLogin.cs</DependentUpon>
+    <Compile Include="ChannelingDoctorLogin.Designer.cs">
+      <DependentUpon>ChannelingDoctorLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseDoctorType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseDoctorType.Designer.cs">
+      <DependentUpon>ChooseDoctorType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Database\DBclass.cs" />
+    <Compile Include="OPDDoctorLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPDDoctorLogin.Designer.cs">
+      <DependentUpon>OPDDoctorLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="DoctorPatientList.cs">
       <SubType>Form</SubType>
@@ -197,11 +209,13 @@
     <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
     <Compile Include="ServiceImpl\LabReportsServiceImpl.cs" />
     <Compile Include="ServiceImpl\PatientServicesImpl.cs" />
+    <Compile Include="ServiceImpl\specialistServiceImpl.cs" />
     <Compile Include="Services\ChannelingSheduleService.cs" />
     <Compile Include="Services\DoctorService.cs" />
     <Compile Include="Services\LabReportService.cs" />
     <Compile Include="Services\opdsheduleService.cs" />
     <Compile Include="Services\PatientServices.cs" />
+    <Compile Include="Services\specialistService.cs" />
     <Compile Include="UpdateOpdDoctorShedule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,8 +243,14 @@
     <EmbeddedResource Include="ChannelingDetails.resx">
       <DependentUpon>ChannelingDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DoctorLogin.resx">
-      <DependentUpon>DoctorLogin.cs</DependentUpon>
+    <EmbeddedResource Include="ChannelingDoctorLogin.resx">
+      <DependentUpon>ChannelingDoctorLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseDoctorType.resx">
+      <DependentUpon>ChooseDoctorType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPDDoctorLogin.resx">
+      <DependentUpon>OPDDoctorLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorPatientList.resx">
       <DependentUpon>DoctorPatientList.cs</DependentUpon>
@@ -397,6 +417,7 @@
     <None Include="Resources\searchIcon30px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\refresh_26px.png" />
     <None Include="Resources\lab_coat_100px.png" />
     <None Include="Resources\lab_coat_100pxdef.png" />
     <None Include="Resources\cross_100px.png" />

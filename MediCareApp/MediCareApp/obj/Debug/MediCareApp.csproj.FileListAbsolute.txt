@@ -154,7 +154,6 @@ D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe.conf
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AdminLogin.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AttachResult.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChannelingDetails.resources
-D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorLogin.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAssistantLogin.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LandingPage.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReciptionDashboard.resources
@@ -165,3 +164,11 @@ D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Choose.r
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAssistantHome.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabReportView.resources
 D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.selectSchedule.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AddSchFinal.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AddSchSelectDoc.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Scheduling.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.UpdateOpdDoctorShedule.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.UpdateSchedule.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChannelingDoctorLogin.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChooseDoctorType.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.OPDDoctorLogin.resources

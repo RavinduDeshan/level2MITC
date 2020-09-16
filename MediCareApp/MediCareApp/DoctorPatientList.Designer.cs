@@ -30,25 +30,30 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoctorPatientList));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.viewMore = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.totPatientCountLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.gridPatient = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.customImageButton2 = new imageButton.CustomImageButton();
+            this.viewMore = new System.Windows.Forms.Button();
             this.customImageButton5 = new imageButton.CustomImageButton();
             this.customImageButton1 = new imageButton.CustomImageButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.customImageButton2 = new imageButton.CustomImageButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridPatient)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.gridPatient);
             this.panel1.Controls.Add(this.customImageButton2);
             this.panel1.Controls.Add(this.viewMore);
             this.panel1.Controls.Add(this.textBox1);
@@ -62,30 +67,21 @@
             this.panel1.Size = new System.Drawing.Size(810, 626);
             this.panel1.TabIndex = 0;
             // 
-            // viewMore
+            // textBox1
             // 
-            this.viewMore.BackColor = System.Drawing.Color.White;
-            this.viewMore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.viewMore.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.viewMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewMore.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewMore.ForeColor = System.Drawing.Color.ForestGreen;
-            this.viewMore.Image = global::MediCareApp.Properties.Resources.view_more_24px;
-            this.viewMore.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.viewMore.Location = new System.Drawing.Point(576, 528);
-            this.viewMore.Name = "viewMore";
-            this.viewMore.Size = new System.Drawing.Size(194, 56);
-            this.viewMore.TabIndex = 17;
-            this.viewMore.Text = "View Patient";
-            this.viewMore.UseVisualStyleBackColor = false;
-            this.viewMore.Click += new System.EventHandler(this.viewMore_Click);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(525, 87);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(199, 26);
+            this.textBox1.TabIndex = 30;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.panel2.Controls.Add(this.totPatientCountLabel);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(576, 160);
+            this.panel2.Location = new System.Drawing.Point(26, 485);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(194, 99);
             this.panel2.TabIndex = 15;
@@ -112,6 +108,73 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Total Patients Treated";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Green;
+            this.label1.Location = new System.Drawing.Point(119, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(286, 79);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Patients";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // gridPatient
+            // 
+            this.gridPatient.BackgroundColor = System.Drawing.Color.PaleGreen;
+            this.gridPatient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPatient.Location = new System.Drawing.Point(26, 141);
+            this.gridPatient.Name = "gridPatient";
+            this.gridPatient.Size = new System.Drawing.Size(751, 309);
+            this.gridPatient.TabIndex = 32;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.ForestGreen;
+            this.button1.Image = global::MediCareApp.Properties.Resources.refresh_26px;
+            this.button1.Location = new System.Drawing.Point(514, 509);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(51, 56);
+            this.button1.TabIndex = 33;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // customImageButton2
+            // 
+            this.customImageButton2.Image = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
+            this.customImageButton2.ImageDefault = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
+            this.customImageButton2.ImageHover = global::MediCareApp.Properties.Resources.searchIcon30px;
+            this.customImageButton2.Location = new System.Drawing.Point(742, 78);
+            this.customImageButton2.Name = "customImageButton2";
+            this.customImageButton2.Size = new System.Drawing.Size(35, 35);
+            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton2.TabIndex = 31;
+            this.customImageButton2.TabStop = false;
+            // 
+            // viewMore
+            // 
+            this.viewMore.BackColor = System.Drawing.Color.White;
+            this.viewMore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.viewMore.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewMore.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewMore.ForeColor = System.Drawing.Color.ForestGreen;
+            this.viewMore.Image = global::MediCareApp.Properties.Resources.view_more_24px;
+            this.viewMore.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.viewMore.Location = new System.Drawing.Point(583, 509);
+            this.viewMore.Name = "viewMore";
+            this.viewMore.Size = new System.Drawing.Size(194, 56);
+            this.viewMore.TabIndex = 17;
+            this.viewMore.Text = "View Patient";
+            this.viewMore.UseVisualStyleBackColor = false;
+            this.viewMore.Click += new System.EventHandler(this.viewMore_Click);
+            // 
             // customImageButton5
             // 
             this.customImageButton5.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -137,39 +200,6 @@
             this.customImageButton1.TabIndex = 13;
             this.customImageButton1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tw Cen Classified MT Std", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(119, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(286, 79);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Patients";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // customImageButton2
-            // 
-            this.customImageButton2.Image = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
-            this.customImageButton2.ImageDefault = global::MediCareApp.Properties.Resources.searchIcon30pxdef;
-            this.customImageButton2.ImageHover = global::MediCareApp.Properties.Resources.searchIcon30px;
-            this.customImageButton2.Location = new System.Drawing.Point(705, 73);
-            this.customImageButton2.Name = "customImageButton2";
-            this.customImageButton2.Size = new System.Drawing.Size(35, 35);
-            this.customImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.customImageButton2.TabIndex = 31;
-            this.customImageButton2.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(502, 78);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(199, 26);
-            this.textBox1.TabIndex = 30;
-            // 
             // DoctorPatientList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -181,13 +211,15 @@
             this.MaximizeBox = false;
             this.Name = "DoctorPatientList";
             this.Text = "Doctor Portal- Patient List";
+            this.Load += new System.EventHandler(this.DoctorPatientList_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridPatient)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -204,5 +236,7 @@
         private System.Windows.Forms.Button viewMore;
         private imageButton.CustomImageButton customImageButton2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView gridPatient;
+        private System.Windows.Forms.Button button1;
     }
 }

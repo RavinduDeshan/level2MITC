@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MediCareApp.Models;
+using MediCareApp.ServiceImpl;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,9 +15,25 @@ namespace MediCareApp
     public partial class DoctorHome : Form
     {
         int count;
+        string nic;
+        PatientServicesImpl serv = new PatientServicesImpl();
         public DoctorHome()
         {
             InitializeComponent();
+            //setLabels();
+        }
+
+        public DoctorHome(string nic, int validator)
+        {
+            InitializeComponent();
+
+            this.nic = nic;
+
+            setLabels();
+
+
+
+
         }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,6 +83,11 @@ namespace MediCareApp
         private void DoctorHome_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public void setLabels()
+        {
+            totPatientCountLabel.Text = serv.getAllPatientCount().ToString();
         }
     }
 }
