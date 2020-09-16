@@ -50,6 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSchFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSchFinal.Designer.cs">
+      <DependentUpon>AddSchFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSchSelectDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSchSelectDoc.Designer.cs">
+      <DependentUpon>AddSchSelectDoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +132,12 @@
     <Compile Include="RegisterPatient.Designer.cs">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="Scheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scheduling.Designer.cs">
+      <DependentUpon>Scheduling.cs</DependentUpon>
+    </Compile>
     <Compile Include="SearchPatient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +202,24 @@
     <Compile Include="Services\LabReportService.cs" />
     <Compile Include="Services\opdsheduleService.cs" />
     <Compile Include="Services\PatientServices.cs" />
+    <Compile Include="UpdateOpdDoctorShedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateOpdDoctorShedule.Designer.cs">
+      <DependentUpon>UpdateOpdDoctorShedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSchedule.Designer.cs">
+      <DependentUpon>UpdateSchedule.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddSchFinal.resx">
+      <DependentUpon>AddSchFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSchSelectDoc.resx">
+      <DependentUpon>AddSchSelectDoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -220,6 +256,9 @@
     <EmbeddedResource Include="RegisterPatient.resx">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Scheduling.resx">
+      <DependentUpon>Scheduling.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SearchPatient.resx">
       <DependentUpon>SearchPatient.cs</DependentUpon>
     </EmbeddedResource>
@@ -250,6 +289,12 @@
     </Compile>
     <EmbeddedResource Include="selectSchedule.resx">
       <DependentUpon>selectSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateOpdDoctorShedule.resx">
+      <DependentUpon>UpdateOpdDoctorShedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSchedule.resx">
+      <DependentUpon>UpdateSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

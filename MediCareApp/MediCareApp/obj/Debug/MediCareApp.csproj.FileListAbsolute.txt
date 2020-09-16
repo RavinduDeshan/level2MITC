@@ -136,3 +136,32 @@ C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAssistantLogin.resources
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LandingPage.resources
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReceptionistLogin.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\MySql.Data.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\Google.Protobuf.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\Zstandard.Net.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\BouncyCastle.Crypto.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\Ubiety.Dns.Core.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\Renci.SshNet.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\System.Buffers.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\K4os.Compression.LZ4.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\K4os.Hash.xxHash.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\System.Memory.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\System.Numerics.Vectors.dll
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\bin\Debug\MySql.Data.xml
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe.config
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AdminLogin.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AttachResult.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChannelingDetails.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.DoctorLogin.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAssistantLogin.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LandingPage.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReciptionDashboard.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReceptionistLogin.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.RegisterPatient.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.patientSearch.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Choose.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAssistantHome.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabReportView.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.selectSchedule.resources
