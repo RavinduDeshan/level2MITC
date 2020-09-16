@@ -303,7 +303,11 @@
     <None Include="Resources\searchIcon30px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\cross_100px.png" />
+    <None Include="Resources\hospital_96px.png" />
+    <None Include="Resources\aed_80px.png" />
     <Content Include="Resources\labreport.png" />
+    <None Include="Resources\medical_bag_48px.png" />
     <None Include="Resources\stethoscope_200px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

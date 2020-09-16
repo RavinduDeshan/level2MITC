@@ -40,11 +40,12 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.customImageButton1 = new imageButton.CustomImageButton();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -178,15 +179,6 @@
             this.label12.TabIndex = 11;
             this.label12.Text = "Dr. Sunil Perera";
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(0, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "label13";
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -227,16 +219,28 @@
             this.label17.TabIndex = 16;
             this.label17.Text = ":";
             // 
+            // customImageButton1
+            // 
+            this.customImageButton1.Image = global::MediCareApp.Properties.Resources.aed_80px;
+            this.customImageButton1.ImageDefault = global::MediCareApp.Properties.Resources.fever_200pxdef;
+            this.customImageButton1.ImageHover = global::MediCareApp.Properties.Resources.fever_200pxdef;
+            this.customImageButton1.Location = new System.Drawing.Point(604, 182);
+            this.customImageButton1.Name = "customImageButton1";
+            this.customImageButton1.Size = new System.Drawing.Size(126, 125);
+            this.customImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton1.TabIndex = 17;
+            this.customImageButton1.TabStop = false;
+            // 
             // ChannelingDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.customImageButton1);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -250,8 +254,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ChannelingDetails";
-            this.Text = "ChannelingDetails";
+            this.Text = "iij  b n  ,,";
             this.Load += new System.EventHandler(this.ChannelingDetails_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,10 +276,10 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private imageButton.CustomImageButton customImageButton1;
     }
 }
