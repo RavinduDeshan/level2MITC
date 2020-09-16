@@ -150,11 +150,15 @@
     <Compile Include="selectSchedule.Designer.cs">
       <DependentUpon>selectSchedule.cs</DependentUpon>
     </Compile>
+    <Compile Include="ServiceImpl\ChannelingScheduleServiceImpl.cs" />
+    <Compile Include="ServiceImpl\OpdSheduleServiceImpl.cs" />
     <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
     <Compile Include="ServiceImpl\LabReportsServiceImpl.cs" />
     <Compile Include="ServiceImpl\PatientServicesImpl.cs" />
+    <Compile Include="Services\ChannelingSheduleService.cs" />
     <Compile Include="Services\DoctorService.cs" />
     <Compile Include="Services\LabReportService.cs" />
+    <Compile Include="Services\opdsheduleService.cs" />
     <Compile Include="Services\PatientServices.cs" />
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
