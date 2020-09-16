@@ -31,13 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoctorSinglePatient));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.viewMore = new System.Windows.Forms.Button();
             this.IDlabel = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.nicLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.AGElABEL = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.patientdob = new System.Windows.Forms.Label();
+            this.dobLabel = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.NamewithInitialsLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -59,42 +60,41 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.customImageButton5 = new imageButton.CustomImageButton();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.customImageButton3 = new imageButton.CustomImageButton();
             this.customImageButton2 = new imageButton.CustomImageButton();
             this.label13 = new System.Windows.Forms.Label();
             this.customImageButton1 = new imageButton.CustomImageButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.patientaddress = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.MintCream;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.patientaddress);
-            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.viewMore);
             this.panel2.Controls.Add(this.IDlabel);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.nicLabel);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.AGElABEL);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.patientdob);
+            this.panel2.Controls.Add(this.dobLabel);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.NamewithInitialsLabel);
             this.panel2.Controls.Add(this.label5);
@@ -107,12 +107,30 @@
             this.panel2.Size = new System.Drawing.Size(736, 197);
             this.panel2.TabIndex = 17;
             // 
+            // viewMore
+            // 
+            this.viewMore.BackColor = System.Drawing.Color.White;
+            this.viewMore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.viewMore.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewMore.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewMore.ForeColor = System.Drawing.Color.ForestGreen;
+            this.viewMore.Image = global::MediCareApp.Properties.Resources.view_more_24px;
+            this.viewMore.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.viewMore.Location = new System.Drawing.Point(623, 148);
+            this.viewMore.Name = "viewMore";
+            this.viewMore.Size = new System.Drawing.Size(86, 34);
+            this.viewMore.TabIndex = 18;
+            this.viewMore.Text = "More";
+            this.viewMore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.viewMore.UseVisualStyleBackColor = false;
+            // 
             // IDlabel
             // 
             this.IDlabel.AutoSize = true;
             this.IDlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IDlabel.ForeColor = System.Drawing.Color.Gray;
-            this.IDlabel.Location = new System.Drawing.Point(571, 158);
+            this.IDlabel.Location = new System.Drawing.Point(571, 106);
             this.IDlabel.Name = "IDlabel";
             this.IDlabel.Size = new System.Drawing.Size(129, 25);
             this.IDlabel.TabIndex = 29;
@@ -124,7 +142,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(510, 158);
+            this.label9.Location = new System.Drawing.Point(510, 106);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(48, 25);
             this.label9.TabIndex = 28;
@@ -136,7 +154,7 @@
             this.nicLabel.AutoSize = true;
             this.nicLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nicLabel.ForeColor = System.Drawing.Color.Gray;
-            this.nicLabel.Location = new System.Drawing.Point(221, 159);
+            this.nicLabel.Location = new System.Drawing.Point(221, 107);
             this.nicLabel.Name = "nicLabel";
             this.nicLabel.Size = new System.Drawing.Size(144, 25);
             this.nicLabel.TabIndex = 27;
@@ -148,7 +166,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(160, 159);
+            this.label7.Location = new System.Drawing.Point(160, 107);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 25);
             this.label7.TabIndex = 26;
@@ -179,17 +197,17 @@
             this.label6.Text = "Age :";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // patientdob
+            // dobLabel
             // 
-            this.patientdob.AutoSize = true;
-            this.patientdob.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientdob.ForeColor = System.Drawing.Color.Gray;
-            this.patientdob.Location = new System.Drawing.Point(334, 72);
-            this.patientdob.Name = "patientdob";
-            this.patientdob.Size = new System.Drawing.Size(99, 20);
-            this.patientdob.TabIndex = 23;
-            this.patientdob.Text = "1998/06/05";
-            this.patientdob.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dobLabel.AutoSize = true;
+            this.dobLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dobLabel.ForeColor = System.Drawing.Color.Gray;
+            this.dobLabel.Location = new System.Drawing.Point(334, 72);
+            this.dobLabel.Name = "dobLabel";
+            this.dobLabel.Size = new System.Drawing.Size(99, 20);
+            this.dobLabel.TabIndex = 23;
+            this.dobLabel.Text = "1998/06/05";
+            this.dobLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -388,10 +406,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.customImageButton5);
             this.panel1.Controls.Add(this.label1);
@@ -404,25 +422,6 @@
             this.panel1.Size = new System.Drawing.Size(800, 742);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.ForestGreen;
-            this.button3.Image = global::MediCareApp.Properties.Resources.view_more_24px;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(620, 657);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(145, 46);
-            this.button3.TabIndex = 42;
-            this.button3.Text = "View Record";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label11
             // 
@@ -454,6 +453,24 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.ForestGreen;
+            this.button1.Image = global::MediCareApp.Properties.Resources.view_more_24px;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(659, 643);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(106, 34);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "View All";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // customImageButton5
             // 
             this.customImageButton5.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -471,15 +488,29 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label12);
+            this.panel3.Controls.Add(this.customImageButton3);
             this.panel3.Controls.Add(this.customImageButton2);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.customImageButton1);
             this.panel3.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel3.Location = new System.Drawing.Point(235, 75);
+            this.panel3.Location = new System.Drawing.Point(144, 75);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(327, 99);
+            this.panel3.Size = new System.Drawing.Size(509, 99);
             this.panel3.TabIndex = 40;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Gray;
+            this.label10.Location = new System.Drawing.Point(348, 60);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(142, 18);
+            this.label10.TabIndex = 41;
+            this.label10.Text = "New Medical Report";
             // 
             // label12
             // 
@@ -492,6 +523,19 @@
             this.label12.Size = new System.Drawing.Size(115, 18);
             this.label12.TabIndex = 40;
             this.label12.Text = "New Lab Report";
+            // 
+            // customImageButton3
+            // 
+            this.customImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customImageButton3.Image = global::MediCareApp.Properties.Resources.medical_history_60pxdef;
+            this.customImageButton3.ImageDefault = global::MediCareApp.Properties.Resources.medical_history_60pxdef;
+            this.customImageButton3.ImageHover = global::MediCareApp.Properties.Resources.medical_history_60px;
+            this.customImageButton3.Location = new System.Drawing.Point(361, 12);
+            this.customImageButton3.Name = "customImageButton3";
+            this.customImageButton3.Size = new System.Drawing.Size(130, 45);
+            this.customImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.customImageButton3.TabIndex = 37;
+            this.customImageButton3.TabStop = false;
             // 
             // customImageButton2
             // 
@@ -531,38 +575,24 @@
             this.customImageButton1.TabIndex = 39;
             this.customImageButton1.TabStop = false;
             // 
-            // dataGridView1
+            // button3
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Honeydew;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 495);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(735, 143);
-            this.dataGridView1.TabIndex = 43;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Green;
-            this.label8.Location = new System.Drawing.Point(160, 93);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 20);
-            this.label8.TabIndex = 30;
-            this.label8.Text = "Address :";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // patientaddress
-            // 
-            this.patientaddress.AutoSize = true;
-            this.patientaddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientaddress.ForeColor = System.Drawing.Color.Gray;
-            this.patientaddress.Location = new System.Drawing.Point(334, 93);
-            this.patientaddress.Name = "patientaddress";
-            this.patientaddress.Size = new System.Drawing.Size(99, 20);
-            this.patientaddress.TabIndex = 31;
-            this.patientaddress.Text = "1998/06/05";
-            this.patientaddress.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.ForestGreen;
+            this.button3.Image = global::MediCareApp.Properties.Resources.view_more_24px;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(506, 643);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(145, 34);
+            this.button3.TabIndex = 42;
+            this.button3.Text = "View Record";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // DoctorSinglePatient
             // 
@@ -586,9 +616,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton5)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customImageButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -596,13 +626,14 @@
         #endregion
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button viewMore;
         private System.Windows.Forms.Label IDlabel;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label nicLabel;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label AGElABEL;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label patientdob;
+        private System.Windows.Forms.Label dobLabel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label NamewithInitialsLabel;
         private System.Windows.Forms.Label label5;
@@ -624,17 +655,17 @@
         private System.Windows.Forms.Label label1;
         private imageButton.CustomImageButton customImageButton5;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel3;
+        private imageButton.CustomImageButton customImageButton3;
         private imageButton.CustomImageButton customImageButton2;
         private imageButton.CustomImageButton customImageButton1;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label patientaddress;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

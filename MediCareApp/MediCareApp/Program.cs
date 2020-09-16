@@ -16,8 +16,7 @@ namespace MediCareApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new DoctorHome());
-            Application.Run(new LandingPage());
+            Application.Run(new DoctorHome());
         }
     }
 }
