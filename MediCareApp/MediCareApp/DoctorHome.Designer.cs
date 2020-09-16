@@ -45,15 +45,9 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.totPendingLabsLabel = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.totPrescriptionsLabel = new System.Windows.Forms.Label();
@@ -77,9 +71,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -211,9 +203,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.panel6);
-            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
@@ -237,49 +227,12 @@
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panel7.Controls.Add(this.label15);
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Location = new System.Drawing.Point(784, 534);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(259, 122);
-            this.panel7.TabIndex = 2;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Transparent;
-            this.label15.Location = new System.Drawing.Point(87, 57);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(80, 40);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "340";
-            this.label15.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Transparent;
-            this.label16.Location = new System.Drawing.Point(28, 20);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(179, 25);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Remaining Patients";
-            this.label16.Click += new System.EventHandler(this.label1_Click);
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.panel6.Controls.Add(this.label13);
             this.panel6.Controls.Add(this.totPendingLabsLabel);
-            this.panel6.Location = new System.Drawing.Point(483, 534);
+            this.panel6.Location = new System.Drawing.Point(627, 531);
             this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(259, 122);
@@ -311,49 +264,12 @@
             this.totPendingLabsLabel.Text = "Pending Lab Reports";
             this.totPendingLabsLabel.Click += new System.EventHandler(this.label1_Click);
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.label10);
-            this.panel4.Location = new System.Drawing.Point(784, 384);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(259, 122);
-            this.panel4.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Transparent;
-            this.label8.Location = new System.Drawing.Point(87, 57);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 40);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "340";
-            this.label8.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(59, 20);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(130, 25);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Queue length";
-            this.label10.Click += new System.EventHandler(this.label1_Click);
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.SeaGreen;
             this.panel5.Controls.Add(this.label11);
             this.panel5.Controls.Add(this.totPrescriptionsLabel);
-            this.panel5.Location = new System.Drawing.Point(181, 534);
+            this.panel5.Location = new System.Drawing.Point(325, 531);
             this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(259, 122);
@@ -390,7 +306,7 @@
             this.panel3.BackColor = System.Drawing.Color.Goldenrod;
             this.panel3.Controls.Add(this.totlabcountLabel);
             this.panel3.Controls.Add(this.label9);
-            this.panel3.Location = new System.Drawing.Point(483, 384);
+            this.panel3.Location = new System.Drawing.Point(627, 381);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(259, 122);
@@ -427,7 +343,7 @@
             this.panel2.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.panel2.Controls.Add(this.totPatientCountLabel);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(181, 384);
+            this.panel2.Location = new System.Drawing.Point(325, 381);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(259, 122);
@@ -644,12 +560,8 @@
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -695,15 +607,9 @@
         private System.Windows.Forms.ToolStripMenuItem mySchedulesToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label totPendingLabsLabel;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label totPrescriptionsLabel;

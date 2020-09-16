@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class DoctorSinglePatient : Form
+    public partial class selectSchedule : Form
     {
-        public DoctorSinglePatient()
+        public selectSchedule()
         {
             InitializeComponent();
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
