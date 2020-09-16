@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MediCareApp
 {
-    public partial class LabReport : Form
+    public partial class LabReportView : Form
     {
-        public LabReport()
+        public LabReportView()
         {
             InitializeComponent();
         }

@@ -29,7 +29,7 @@ namespace MediCareApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form newform = new LabReport();
+            Form newform = new LabReportView();
             newform.Show();
         }
 
