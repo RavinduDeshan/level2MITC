@@ -50,6 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDocLabreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDocLabreport.Designer.cs">
+      <DependentUpon>AddDocLabreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addPrescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addPrescription.Designer.cs">
+      <DependentUpon>addPrescription.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttachResult.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,8 +94,6 @@
     <Compile Include="DoctorSinglePatient.Designer.cs">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\LabReport.cs" />
-    <Compile Include="Models\Patient.cs" />
     <Compile Include="ReceptionDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,11 +136,9 @@
     <Compile Include="LabAssistantHome.Designer.cs">
       <DependentUpon>LabAssistantHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="LabReportView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LabReportView.Designer.cs">
-      <DependentUpon>LabReportView.cs</DependentUpon>
+    <Compile Include="LabReport.cs" />
+    <Compile Include="LabReport.Designer.cs">
+      <DependentUpon>LabReport.cs</DependentUpon>
     </Compile>
     <Compile Include="LandingPage.cs">
       <SubType>Form</SubType>
@@ -144,18 +152,15 @@
     <Compile Include="Models\Specialist.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="selectSchedule.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="selectSchedule.Designer.cs">
-      <DependentUpon>selectSchedule.cs</DependentUpon>
-    </Compile>
     <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
-    <Compile Include="ServiceImpl\LabReportsServiceImpl.cs" />
-    <Compile Include="ServiceImpl\PatientServicesImpl.cs" />
     <Compile Include="Services\DoctorService.cs" />
-    <Compile Include="Services\LabReportService.cs" />
-    <Compile Include="Services\PatientServices.cs" />
+    <Compile Include="Services\specialDoctor.cs" />
+    <EmbeddedResource Include="AddDocLabreport.resx">
+      <DependentUpon>AddDocLabreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addPrescription.resx">
+      <DependentUpon>addPrescription.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,8 +197,8 @@
     <EmbeddedResource Include="LabAssistantHome.resx">
       <DependentUpon>LabAssistantHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LabReportView.resx">
-      <DependentUpon>LabReportView.cs</DependentUpon>
+    <EmbeddedResource Include="LabReport.resx">
+      <DependentUpon>LabReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -205,9 +210,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="selectSchedule.resx">
-      <DependentUpon>selectSchedule.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -309,12 +311,7 @@
     <None Include="Resources\searchIcon30px.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cross_100px.png" />
-    <None Include="Resources\hospital_96px.png" />
-    <None Include="Resources\aed_80px.png" />
     <Content Include="Resources\labreport.png" />
-    <None Include="Resources\medical_bag_48px.png" />
-    <None Include="Resources\stethoscope_200px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

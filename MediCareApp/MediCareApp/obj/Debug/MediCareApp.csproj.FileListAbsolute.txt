@@ -90,3 +90,4 @@ C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAs
 C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChannelingDetails.resources
 C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabReportView.resources
 C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.selectSchedule.resources
+D:\MIT\C# project Level 2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe.config
