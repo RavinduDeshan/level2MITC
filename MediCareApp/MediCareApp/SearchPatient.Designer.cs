@@ -177,6 +177,7 @@
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maskedTextBox1.Location = new System.Drawing.Point(412, 146);
+            this.maskedTextBox1.Mask = "000000000 v";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(236, 31);
             this.maskedTextBox1.TabIndex = 32;
@@ -255,9 +256,8 @@
             this.ClientSize = new System.Drawing.Size(908, 586);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip2);
-            this.IsMdiContainer = true;
             this.Name = "patientSearch";
-            this.Text = "MediCare-PatientSearch";
+            this.Text = "/";
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.panel1.ResumeLayout(false);

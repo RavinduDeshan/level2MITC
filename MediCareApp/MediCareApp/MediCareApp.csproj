@@ -82,6 +82,8 @@
     <Compile Include="DoctorSinglePatient.Designer.cs">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\LabReport.cs" />
+    <Compile Include="Models\Patient.cs" />
     <Compile Include="ReceptionDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,11 +126,11 @@
     <Compile Include="LabAssistantHome.Designer.cs">
       <DependentUpon>LabAssistantHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="LabReport.cs">
+    <Compile Include="LabReportView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LabReport.Designer.cs">
-      <DependentUpon>LabReport.cs</DependentUpon>
+    <Compile Include="LabReportView.Designer.cs">
+      <DependentUpon>LabReportView.cs</DependentUpon>
     </Compile>
     <Compile Include="LandingPage.cs">
       <SubType>Form</SubType>
@@ -149,7 +151,11 @@
       <DependentUpon>selectSchedule.cs</DependentUpon>
     </Compile>
     <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
+    <Compile Include="ServiceImpl\LabReportsServiceImpl.cs" />
+    <Compile Include="ServiceImpl\PatientServicesImpl.cs" />
     <Compile Include="Services\DoctorService.cs" />
+    <Compile Include="Services\LabReportService.cs" />
+    <Compile Include="Services\PatientServices.cs" />
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,8 +192,8 @@
     <EmbeddedResource Include="LabAssistantHome.resx">
       <DependentUpon>LabAssistantHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LabReport.resx">
-      <DependentUpon>LabReport.cs</DependentUpon>
+    <EmbeddedResource Include="LabReportView.resx">
+      <DependentUpon>LabReportView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
