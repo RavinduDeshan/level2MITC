@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddScheduleChannelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddScheduleChannelling.Designer.cs">
+      <DependentUpon>AddScheduleChannelling.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttachResult.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,8 +88,6 @@
     <Compile Include="DoctorSinglePatient.Designer.cs">
       <DependentUpon>DoctorSinglePatient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\LabReport.cs" />
-    <Compile Include="Models\Patient.cs" />
     <Compile Include="ReceptionDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +99,12 @@
     </Compile>
     <Compile Include="RegisterPatient.Designer.cs">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scheduling.Designer.cs">
+      <DependentUpon>Scheduling.cs</DependentUpon>
     </Compile>
     <Compile Include="SearchPatient.cs">
       <SubType>Form</SubType>
@@ -126,11 +136,9 @@
     <Compile Include="LabAssistantHome.Designer.cs">
       <DependentUpon>LabAssistantHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="LabReportView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LabReportView.Designer.cs">
-      <DependentUpon>LabReportView.cs</DependentUpon>
+    <Compile Include="LabReport.cs" />
+    <Compile Include="LabReport.Designer.cs">
+      <DependentUpon>LabReport.cs</DependentUpon>
     </Compile>
     <Compile Include="LandingPage.cs">
       <SubType>Form</SubType>
@@ -151,11 +159,22 @@
       <DependentUpon>selectSchedule.cs</DependentUpon>
     </Compile>
     <Compile Include="ServiceImpl\DoctorServiceImpl.cs" />
-    <Compile Include="ServiceImpl\LabReportsServiceImpl.cs" />
-    <Compile Include="ServiceImpl\PatientServicesImpl.cs" />
     <Compile Include="Services\DoctorService.cs" />
-    <Compile Include="Services\LabReportService.cs" />
-    <Compile Include="Services\PatientServices.cs" />
+    <Compile Include="UpdateDoctorOpd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDoctorOpd.Designer.cs">
+      <DependentUpon>UpdateDoctorOpd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateScheduleChannelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateScheduleChannelling.Designer.cs">
+      <DependentUpon>UpdateScheduleChannelling.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddScheduleChannelling.resx">
+      <DependentUpon>AddScheduleChannelling.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AttachResult.resx">
       <DependentUpon>AttachResult.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +196,9 @@
     <EmbeddedResource Include="RegisterPatient.resx">
       <DependentUpon>RegisterPatient.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Scheduling.resx">
+      <DependentUpon>Scheduling.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SearchPatient.resx">
       <DependentUpon>SearchPatient.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,8 +214,8 @@
     <EmbeddedResource Include="LabAssistantHome.resx">
       <DependentUpon>LabAssistantHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LabReportView.resx">
-      <DependentUpon>LabReportView.cs</DependentUpon>
+    <EmbeddedResource Include="LabReport.resx">
+      <DependentUpon>LabReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -207,6 +229,12 @@
     </Compile>
     <EmbeddedResource Include="selectSchedule.resx">
       <DependentUpon>selectSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDoctorOpd.resx">
+      <DependentUpon>UpdateDoctorOpd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateScheduleChannelling.resx">
+      <DependentUpon>UpdateScheduleChannelling.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -309,6 +337,7 @@
     <None Include="Resources\searchIcon30px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\timesheet_128px.png" />
     <None Include="Resources\cross_100px.png" />
     <None Include="Resources\hospital_96px.png" />
     <None Include="Resources\aed_80px.png" />
