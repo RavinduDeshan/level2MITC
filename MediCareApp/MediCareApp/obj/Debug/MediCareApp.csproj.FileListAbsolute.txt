@@ -85,6 +85,7 @@ C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
 C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.patientSearch.resources
 C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.RegisterPatient.resources
 C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.Choose.resources
+<<<<<<< .merge_file_a23960
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe.config
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\bin\Debug\MediCareApp.exe
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\bin\Debug\MediCareApp.pdb
@@ -129,3 +130,10 @@ C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAssistantLogin.resources
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LandingPage.resources
 C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ReceptionistLogin.resources
+=======
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AttachResult.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabAssistantHome.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChannelingDetails.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.LabReportView.resources
+C:\Users\HP\Desktop\mediCare\MediCareApp\MediCareApp\obj\Debug\MediCareApp.selectSchedule.resources
+>>>>>>> .merge_file_a18288

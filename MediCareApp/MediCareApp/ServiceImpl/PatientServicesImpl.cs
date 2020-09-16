@@ -19,7 +19,7 @@ namespace MediCareApp.ServiceImpl
 
         public bool AddPatient(Patient P)
         {
-            MySqlCommand mysqlcommand = new MySqlCommand("lecturerAddorEdit", this.con);
+            MySqlCommand mysqlcommand = new MySqlCommand("AddPatient", this.con);
  
             mysqlcommand.CommandType = CommandType.StoredProcedure;
        
