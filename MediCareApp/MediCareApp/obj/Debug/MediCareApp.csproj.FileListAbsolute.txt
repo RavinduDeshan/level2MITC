@@ -215,3 +215,8 @@ B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.cspr
 B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.csproj.CopyComplete
 B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.exe
 B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.pdb
+B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AddLabReportDoctor.resources
+B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.AddTreatmentForPatient.resources
+B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChannelingDoctorLogin.resources
+B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.ChooseDoctorType.resources
+B:\STUDIES\Kelaniya\C#project\MediCareApp\MediCareApp\obj\Debug\MediCareApp.OPDDoctorLogin.resources
