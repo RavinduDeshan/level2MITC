@@ -84,6 +84,7 @@
     </Compile>
     <Compile Include="Models\LabReport.cs" />
     <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\ReceptionModel.cs" />
     <Compile Include="ReceptionDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
