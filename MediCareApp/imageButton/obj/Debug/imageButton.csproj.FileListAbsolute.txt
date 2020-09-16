@@ -30,11 +30,11 @@ B:\STUDIES\Kelaniya\C# project\MediCareApp\imageButton\obj\Debug\imageButton.csp
 B:\STUDIES\Kelaniya\C# project\MediCareApp\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
 B:\STUDIES\Kelaniya\C# project\MediCareApp\imageButton\obj\Debug\imageButton.dll
 B:\STUDIES\Kelaniya\C# project\MediCareApp\imageButton\obj\Debug\imageButton.pdb
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\bin\Debug\imageButton.dll
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\bin\Debug\imageButton.pdb
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\obj\Debug\imageButton.csprojAssemblyReference.cache
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\obj\Debug\imageButton.CustomImageButton.resources
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\obj\Debug\imageButton.csproj.GenerateResource.cache
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\obj\Debug\imageButton.dll
-C:\Users\HP\medicareAPP\MediCareApp\imageButton\obj\Debug\imageButton.pdb
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\bin\Debug\imageButton.dll
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\bin\Debug\imageButton.pdb
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\obj\Debug\imageButton.csprojAssemblyReference.cache
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\obj\Debug\imageButton.CustomImageButton.resources
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\obj\Debug\imageButton.csproj.GenerateResource.cache
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\obj\Debug\imageButton.csproj.CoreCompileInputs.cache
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\obj\Debug\imageButton.dll
+C:\Users\Sachini Ginige\Documents\1MIT\Yr2 Sem1\ISM IAD Project\App2\MediCareApp\imageButton\obj\Debug\imageButton.pdb
