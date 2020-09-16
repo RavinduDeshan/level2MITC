@@ -30,12 +30,14 @@ namespace MediCareApp
         private void button1_Click(object sender, EventArgs e)
         {
             Form newform = new RegisterPatient();
+            Dispose();
             newform.Show();
         }
 
         private void viewMore_Click(object sender, EventArgs e)
         {
             Form newform = new Choose();
+            Dispose();
             newform.Show();
         }
     }

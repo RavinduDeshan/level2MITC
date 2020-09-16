@@ -63,9 +63,39 @@ namespace MediCareApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cross_100px {
+        internal static System.Drawing.Bitmap Admin64px {
             get {
-                object obj = ResourceManager.GetObject("cross_100px", resourceCulture);
+                object obj = ResourceManager.GetObject("Admin64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Admin64pxdef {
+            get {
+                object obj = ResourceManager.GetObject("Admin64pxdef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctor_male_100pxdef {
+            get {
+                object obj = ResourceManager.GetObject("doctor_male_100pxdef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctor100px {
+            get {
+                object obj = ResourceManager.GetObject("doctor100px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,6 +143,46 @@ namespace MediCareApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap front_desk_64px {
+            get {
+                object obj = ResourceManager.GetObject("front_desk_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap front_desk_64pxdef {
+            get {
+                object obj = ResourceManager.GetObject("front_desk_64pxdef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lab_coat_100px {
+            get {
+                object obj = ResourceManager.GetObject("lab_coat_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lab_coat_100pxdef {
+            get {
+                object obj = ResourceManager.GetObject("lab_coat_100pxdef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lab_items_60px {
             get {
                 object obj = ResourceManager.GetObject("lab_items_60px", resourceCulture);
@@ -146,16 +216,6 @@ namespace MediCareApp.Properties {
         internal static System.Drawing.Bitmap male_user_52px {
             get {
                 object obj = ResourceManager.GetObject("male_user_52px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap medical_bag_48px {
-            get {
-                object obj = ResourceManager.GetObject("medical_bag_48px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +373,9 @@ namespace MediCareApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap stethoscope_200px {
+        internal static System.Drawing.Bitmap settings_24pxdef {
             get {
-                object obj = ResourceManager.GetObject("stethoscope_200px", resourceCulture);
+                object obj = ResourceManager.GetObject("settings_24pxdef", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
